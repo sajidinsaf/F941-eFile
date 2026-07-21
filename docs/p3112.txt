@@ -1,0 +1,498 @@
+IRS e-file Application & Participation
+Publication 3112 (Rev. 11-2025) Catalog Number 25992L Department of the Treasury Internal Revenue Service www.irs.gov
+
+Contents
+
+Applying to IRS e-file
+
+1
+
+Stay Informed...............................................................1 Reminder...............................................................1
+Introduction to IRS e-file..............................................2 What is an Authorized IRS e-file Provider...................2 What You Need to Know.............................................2
+
+Become an Authorized
+
+IRS e-file Provider
+
+3
+
+Access IRS e-file Application to Become an Authorized IRS e-file Provider ....................................3
+Complete and Submit Your IRS e-file Application......3
+Provider Options .........................................................4
+Principals and Responsible Officials ..........................5 Everyone who is a Principal or Responsible Official must:..........................................................5 Principals...............................................................6 Responsible Officials..............................................6 Other Individuals on IRS e-file Applications............6 Contacts................................................................6 Delegation of Authorities .......................................7 Delegated Users....................................................7 Principal Consent..................................................7
+Processing the e-file Application ................................8
+Acceptance or Denial of an e-file Application.............8
+Denial to Participate in IRS e-file ................................8
+EFINs and ETINs..........................................................9
+Checking Other Authorized IRS e-file Providers.......10
+Using Third Parties for IRS e-file Related Activities....10
+When to Submit a New Application .........................10 Adding New Business Locations..........................10 Acquiring an IRS e-file Business by Purchase, Transfer or Gift.....................................................11
+Keeping Your IRS e-file Application Up to Date........12 Revision of the IRS e-file Application Requiring Resubmission......................................................12
+
+Participating in IRS e-file
+
+13
+
+Safeguarding IRS e-file..............................................13 Safeguarding Taxpayer Information .....................14 Registration of Websites with the IRS..................14
+Provider Roles and Responsibilities..........................15 Electronic Return Originator.................................15 The Origination of an Electronic Return................15 Intermediate Service Provider..............................16 Software Developer.............................................16 Transmitter...........................................................16 Reporting Agent..................................................17
+Not for Profit Providers..............................................17 IRS Sponsored Programs....................................17 Employers Offering IRS e-file as an Employee Benefit.................................................17
+Testing........................................................................17
+Advertising Standards...............................................17
+Monitoring of IRS e-file Providers..............................19 Continuous Suitability .........................................19 IRS e-file Monitoring Visitations............................19
+Revocation ................................................................19
+Sanctioning ...............................................................20
+Levels of Infractions ..................................................20
+Administrative Review Process Overview ................21 Administrative Review Process for Denial of Participation in IRS e-file......................................21 The Administrative Review Process for Sanctioning.........................................................21 Reconsideration after Expulsion...........................22
+
+Appendix
+
+23
+
+References.................................................................23
+
+Applying to IRS e-file
+Applying to IRS e-file
+Stay Informed
+Reminder
+ The IRS has an electronic fingerprinting process for e-file applicants. Each new Principal and Responsible Official listed on a new e-file application or added to an existing application must be fingerprinted using the IRS Authorized Vendor unless they provide professional credentials.
+ In addition to faxing or mailing documentation in response to application and suitability letters, there is now an option to upload documentation directly to the IRS using a Document Upload Tool (DUT). To send a response electronically, use the DUT link on the letter. If using the DUT to respond to correspondence, there is no need to respond by mail or fax, as this may delay the processing of the response.
+ When adding a new person, you must resubmit the application for processing.  Each Principal and Responsible Officials must pass a suitability check that may include a tax compliance
+check (Tax return(s) filed and balance(s) due paid or covered by an installment agreement).  Stay connected to the IRS through subscriptions to e-News for Tax Professionals, QuickAlerts and
+Social Media.  In the event a security breach occurs, report any suspected data theft or data loss immediately to the
+appropriate IRS Stakeholder Liaison.  You can also review the Federal Trade Commission's (FTC) security tips at Cybersecurity for Small
+Business and Protecting Personal Information.  Links have been added throughout the publication to provide quick access to eliminate reader's burden.  When selling software for resale (re-branding, white label, etc.), the software developer must ensure that
+the original purchaser does not resell the software with the original purchasers EFIN. When the software is activated, the EFIN should not be owned by the original purchaser (reseller). The person buying the resold software must obtain their own EFIN.
+
+1
+
+IRS e-file | Application & Participation
+
+Applying to IRS e-file
+Introduction to IRS e-file
+Authorized IRS e-file Providers (Providers) meet the expectations of their clients by electronically filing their clients' returns, which includes business, individual, and employment tax returns. The IRS processes e-file returns faster and with fewer errors than returns filed on paper. This means quicker refunds and less contact with the IRS. IRS e-file provides proof of receipt within 24 hours of sending returns to the IRS. Individual and business clients can e-file balance due returns and schedule an electronic funds transfer (EFT) from their account for any date.
+The IRS also benefits when tax return preparers participate in IRS e-file and comply with the e-file standards. The IRS has greater assurance that IRS e-file providers are conscientious, honest and can rely on their representations in processing the returns they submit. IRS e-file provider rules are relevant to the IRS mission by assuring taxpayers that tax return preparers are honest, understand and will abide by the rules.
+What is an Authorized IRS e-file Provider
+An Authorized IRS e-file Provider (Provider) is a business or organization authorized by the IRS to participate in IRS e-file. It may be a sole proprietorship, partnership, corporation or other entity. The firm submits an e-file application, meets the eligibility criteria and must pass a suitability check before the IRS assigns an Electronic Filing Identification Number (EFIN). Applicants accepted for participation in IRS e-file become Authorized IRS e-file Providers (Providers).
+A Provider may be an Electronic Return Originator (ERO), Intermediate Service Provider, Transmitter, Software Developer, Reporting Agent, Online Provider or Large Taxpayer. These roles are not mutually exclusive; for example, an Online Provider may also be a Transmitter. Providers may also be tax return preparers, but the activities and responsibilities for IRS e-file and return preparation are distinct and different from each other.
+What You Need to Know
+Apply to participate in IRS e-file using the online IRS e-file Application at IRS.gov. This applies to all applicants that want to develop software or e-file federal tax returns, certain state income tax returns, and extensions of time to file individual, business, employment and exempt organization returns.
+Applicants must become familiar with the rules and requirements for participation in IRS e-file by reading the applicable IRS e-file publications. Publication 1345, Authorized IRS e-file Providers of Individual Income Tax Returns, provides rules and requirements for participation in IRS e-file. Violation of a provision of Publication 1345 or this publication may be subject to e-file Provider sanctions. As noted in Publication 1345, those sanctions may include suspension, expulsion or other legal action. See "Sanctioning" in this publication for additional details. See Appendix for a list of publications and other sources of information about IRS e-file. Applicants with questions may call the IRS e-help Desk at 866-255-0654 for assistance.
+The IRS occasionally conducts pilot programs looking for ways to improve and simplify IRS e-file. The IRS may conduct pilot programs within a limited geographic area or with a limited taxpayer or practitioner community. The rules for pilot programs are contained in implementing documents referred to as "Memorandum of Understanding" (MOU) or "Memorandum of Agreement" (MOA). The implementing document has the same force and effect as Revenue Procedure 2007-40.
+
+2
+
+IRS e-file | Application & Participation
+
+Become an Authorized IRS e-file Provider
+
+Become an Authorized IRS e-file Provider
+
+3 STEPS
+
+STEP
+1
+
+Access IRS e-file Application to Become an Authorized IRS e-file Provider
+The e-file Application is located under e-Services, e-file Provider Services. To access the e-file Application, you must sign in with an existing account or create a new account. Once you can sign in, you will be able to complete and submit an e-file Application.
+
+STEP
+2
+
+Complete and Submit Your IRS e-file Application
+
+An individual representing the firm can begin the IRS e-file application after creating a
+
+Secure Access account. The application process is necessary to protect the integrity and
+
+security of the electronic filing system. The process is designed to allow you to save your
+
+data during the session, if needed, you can return to the application when convenient.
+
+Plan accordingly, as the IRS may take up to 45 days to approve an application. The e-file
+
+application prompts for missing information to ensure that applicants
+
+submit only
+
+complete applications to the IRS.
+
+Note: Before submitting the application, all Principals and Responsible Officials must create an e-Services account and enter information on the application.
+
+3
+
+IRS e-file | Application & Participation
+
+Become an Authorized IRS e-file Provider
+
+Here is a quick guide to complete and submit the application:
+ Go to e-Services page, select E-file Provider Services, then select Access e-file Application to log in.
+ Enter identification information for your firm.
+ Select your e-file Provider Options - businesses that want to e-file for a client should select Electronic Return Originator (ERO).
+ Enter the name, social security number, date of birth, e-mail address and citizenship status for each Principal and Responsible Official in your firm.
+ Enter the current professional information for Principals and Responsible Officials if an attorney, certified public accountant, enrolled agent, officer of a publicly traded corporation, or a bonded bank official.
+ Each Principal or Responsible Official who does not provide professional credentials must use the IRS Authorized Vendor for fingerprinting. To obtain the link for scheduling an electronic fingerprinting appointment, they must access the e-file Application Summary page and use the scheduling link in the Terms of Agreement Signature(s) & Personal Information section.
+ Each Principal and Responsible Official must answer several personal questions and acknowledge reading the Privacy Act and Paper Reduction Act Notice, FBI Privacy Act Statement and the Terms of Agreement (TOA) by entering a PIN you selected when creating your Secure Access account. By doing this, each Principal and Responsible Official declares under penalty of perjury that the personal information is true.
+ Submit the IRS e-file Application and retain the tracking number provided after successful submission of the application.
+Contact the e-help Desk at 866-255-0654 or go to E-file Provider Services page and click the chat bubble in the bottom right corner, for assistance with the IRS e-file Application.
+Provider Options
+Applicants choose Provider Options, which include Electronic Return Originator, Intermediate Service Provider, Online Provider, Transmitter, Software Developer, Reporting Agent and Large Taxpayer. Applicants may choose more than one Provider Option, (e.g., Online Provider and Transmitter). Only choose the options your business intends to use.
+Brief descriptions for each Provider type are below (See IRS e-file Participation, Provider Roles and Responsibilities for additional information):
+Electronic Return Originator (ERO) ­ begins the process of the electronic submission of tax returns to the IRS. EROs and Reporting Agents may apply to be transmitters and transmit return data themselves, or they may contract with an accepted third-party transmitter that can transmit the data for them.
+Intermediate Service Provider ­ processes tax return data, typically from an ERO or an individual taxpayer, and forwards to a transmitter.
+Reporting Agent ­ originates the electronic submission of certain returns for its clients, and/or transmits the returns to the IRS. Reporting Agents (RAs) are companies (not individuals) that perform payroll services for other businesses. RAs adhere to guidelines in Revenue Procedure 2012-32, Revenue Procedure 2007-40 and Publication 1474, Technical Specifications Guide For Reporting Agent Authorization and Federal Tax Depositors. RAs must submit Form 8655, Reporting Agent Authorization, to the IRS prior to or when they submit an IRS e-file Application.
+
+4
+
+IRS e-file | Application & Participation
+
+Become an Authorized IRS e-file Provider
+
+Software Developer ­ writes either origination or transmission software according to the IRS e-file specifications.
+Transmitter ­ sends the electronic return data directly to the IRS. A Transmitter must have software and computers that allow it to interface with the IRS.
+Online Provider ­ allows taxpayers to self-prepare returns by entering return data directly on commercially available software, software downloaded from an Internet site and prepared off-line, or through an online Internet site. Online Provider is a secondary role; therefore, the business must also choose another Provider Option such as Software Developer, Transmitter or Intermediate Service Provider. Even though an ERO may use an Internet website to obtain information from taxpayers to originate the electronic submission of returns, the ERO is not an Online Provider.
+Large Taxpayer ­ a business or other entity (excluding partnerships) with assets of $10 million or more, or a partnership with more than 100 partners (asset criteria does not apply to partnerships), which originates the electronic submission of its own return(s). To submit an IRS e-file Application, Large Taxpayers should follow instructions in Section 5 of Publication 4163, Modernized e-file (MeF) Information for Authorized IRS e-file Providers for Business Returns. Note: A Large Taxpayer is a Provider Option on the IRS e-file Application, but it is not an Authorized IRS e-file Provider.
+
+Principals and Responsible Officials
+Everyone who is a Principal or Responsible Official must:
+ Be a United States citizen or an alien lawfully admitted for permanent residence as described in 8 USC 1101(a)(20) (1994);
+ Be at least 18 years of age as of the date of application; and
+ Meet applicable state and local licensing and/or bonding requirements for the preparation and collection of tax returns.
+Principals and Responsible Officials must be fingerprinted unless they are providing professional status information. They must use the IRS Authorized Vendor for fingerprinting by using the scheduling link on the Application Summary page. Principals and Responsible Officials will provide professional status information (credential number, state of jurisdiction, and date of expiration) in the e-file application as evidence that they are one of the following:
+ Attorney ­ Must be in good standing of the bar of the highest court in any U.S. state, commonwealth, possession or territory of the United States or the District of Columbia at the time of the application. An attorney can't be under suspension or disbarment from practice before the IRS or from the bar of any state, commonwealth, possession, territory or the District of Columbia.
+ Certified Public Accountant ­ Must have a current license to practice as a Certified Public Accountant in any U.S. state, commonwealth, possession or territory of the United States or the District of Columbia at the time of the application. A CPA can't be under suspension or disbarment from practice before the IRS or from practice by a state, commonwealth, possession, territory or the District of Columbia. Licensed Public Accountants (LPAs) must provide fingerprints.
+ Enrolled Agent (pursuant to part 10 of 31 C.F.R. Subtitle A) ­ Must have a valid Enrolled Agent Number.
+ Officer of a publicly held corporation ­ May be asked to provide information about the exchange where listed and on corporate letterhead which carries the office and stock name.
+ Banking official bonded and fingerprinted within the last two years ­ May be asked to provide a copy of the bonding certificate and proof of fingerprinting within the last two years.
+
+5
+
+IRS e-file | Application & Participation
+
+Become an Authorized IRS e-file Provider
+
+Principals
+The Principal for a business or organization includes the following:
+ Sole Proprietorship ­ The individual owner is the Principal for a sole proprietorship.
+ Partnership ­ Each partner who has a 5 percent or more interest in the partnership is a Principal. At least one such individual must be on the application. If no partner has a 5 percent or more interest in the partnership, the Principal is the individual authorized to act for the partnership in legal and/or tax matters.
+ Corporation ­ The President, Vice-President, Secretary, and Treasurer are each a Principal of the corporation.
+ Other ­ The Principal for an entity that is not mentioned above, such as a Limited Liability Company, Association, etc., is an individual authorized to act for the entity in legal and/or tax matters. At least one such individual must be on the application.
+If Principals described above are not involved in the e-file operations of the company, a large firm with multi-layered management (excluding sole proprietor) may substitute individuals designated as "Key Persons" who "substantially participate" in the firm's electronic filing operations as Principals on the firm's IRS e-file application. These individuals can be in addition to, or in lieu of, the Principals described above for partnerships, corporations or others and their position in the company on the e-file application must be identified as "Key Person." A large firm (not necessarily a Large Taxpayer by IRS definition) usually has subsidiaries or multiple operating divisions/branches. "Substantially participate" is participation that is extensive and important in nature, with control over the firm's electronic filing operations. Clerical duties or positions lacking authority are not considered substantial participation.
+Note: Any Principals described above that participate in the e-file operations of the company must be on the e-file application.
+Responsible Officials
+A Responsible Official is an individual with authority over the Provider's IRS e-file operation at a location, is the first point of contact with the IRS, and may be authorized to sign revised IRS e-file applications. A Responsible Official ensures the Provider adheres to the provisions of the revenue procedure as well as all publications and notices governing IRS e-file. The Responsible Official may oversee IRS e-file operations at one or more offices, but must be able to fulfill identified responsibilities for each of the offices. If one individual can't fulfill these responsibilities, a Provider can revise the application to add or change Responsible Officials.
+Other Individuals on IRS e-file Applications
+Other individuals such as Contacts, Principal Consents and Delegated Users may also be included on IRS e-file Applications.
+Contacts
+A contact person should be available daily to answer IRS questions regarding the application and any processing issues throughout the year. Contact persons may be a Principal or Responsible Official. Only Principals and Responsible Officials will have access to private information.
+A Primary Contact is required for each application. An Alternate Contact is not required, but Providers can specify one or more Alternate Contacts. It is important for a Principal or Responsible Official to change or delete Contacts when they are no longer with the firm or their position within the firm no longer warrants being a Contact.
+
+6
+
+IRS e-file | Application & Participation
+
+Become an Authorized IRS e-file Provider
+Delegation of Authorities
+A firm can delegate responsibilities regarding its e-file application and access to eServices to other individuals. These individuals should be an employee, partner or other member of the firm or have a business relationship with the firm. Principals and authorized Responsible Officials are responsible for the actions of all delegates on the firm's application and can delegate some or all the following authorities:
+ Add, delete or change Principal  Add, delete or change Responsible Official  Viewing or updating applications (includes adding, deleting and editing delegated users and contacts)  Signing and submitting revised applications  Accessing e-Services Transcript Delivery System  Transmitter Role and MeF System Enroller (Must be a Responsible Official or Delegated User with these
+authorities)  Viewing Software Developer information  Accessing e-Services Reporting Agent Transcript Delivery Service (must have Reporting Agent
+Provider option) It is required that a Principal or Responsible Official change or delete delegates and/or authorities on the IRS e-file Application when the authorities change or the individuals are no longer with the firm or their position within the firm no longer warrants the authorities.
+Delegated Users
+Delegated Users are individuals designated by the firm to perform efile application related duties or access eservices. A Principal, Principal Consent (below) or Responsible Official appoints an individual as a Delegated User on the IRS e-file Application. Delegated Users are application specific as are the authorities they are granted. Large firms should limit the number of Delegated Users to 100 on a single application.
+Principal Consent
+A Principal or Responsible Official, with authority to "Add, Delete and Change Principal," can assign the role of Principal Consent to an individual. This role gives the designated individual the same e-file application authorities as a Principal.
+
+7
+
+IRS e-file | Application & Participation
+
+Become an Authorized IRS e-file Provider
+
+STEP
+3 ,
+
+Processing the e-file Application
+During the processing of the e-file application, the IRS conducts a suitability check on the firm and on all Principals and Responsible Officials listed on the application. Suitability checks may include the following:
+ A tax compliance check  A check for prior non-compliance with IRS e-file requirements  A criminal background check
+
+Acceptance or Denial of an e-file Application
+After an applicant passes the suitability check and IRS completes processing, the IRS will notify the applicant of acceptance as an Authorized e-file Provider. Applicants can monitor the status of their application by accessing the Application Summary. Transmitters and Software Developers must complete testing before acceptance. The IRS assigns Electronic Filing Identification Numbers (EFINs) to all Providers and assigns Electronic Transmission Identification Numbers (ETINs) to Transmitters, Software Developers and Online Providers. The IRS assigns EFINs with prefix codes 10, 21, 32, 44 and 53 to Online Providers.
+Once accepted, Providers do not have to reapply each year if they continue to e-file returns and comply with suitability requirements. However, if a Provider does not e-file returns for both the current and prior processing year, the IRS may notify the Provider of removal from IRS e-file. The IRS may reactivate a Provider if the Provider replies within sixty days and requests reactivation. Otherwise, the Provider will have to reapply.
+If the IRS suspends a Provider from participation in IRS e-file, the Provider may reapply to participate in IRS e-file after the suspension period is completed or after resolution of suitability issues. Providers expelled or revoked from participation in IRS e-file may not reapply "(See Reconsideration after Expulsion later in this publication)."
+Providers are required to have the appropriate identification numbers and should review their IRS e-file Application at IRS.gov to check their status. Providers may contact the e-help Desk, at 866-255-0654 or go to E-file Provider Services page and click the chat bubble in the bottom right corner, with questions regarding their e-file application status.
+Denial to Participate in IRS e-file
+If a firm, a Principal or a Responsible Official fails the suitability check, the IRS notifies the applicant of denial to participate in IRS e-file, the date when they may reapply and that they may reapply sooner if they resolve the suitability issues. In most circumstances, the denied applicant, Principal or Responsible Official may appeal the decision through the Administrative Review described later.
+An applicant denied participation because a federal or state court enjoined the applicant, Principal or Responsible Official from filing returns or a federal or state legal action prohibits them from participating in IRS e-file may not appeal the denial. If the injunction or other legal action expires or is reversed, the denied applicant may reapply to participate in IRS e-file.
+
+8
+
+IRS e-file | Application & Participation
+
+Become an Authorized IRS e-file Provider
+
+The IRS reviews each firm or organization, Principal and Responsible Official listed on the IRS e-file Application at the time you apply and on an ongoing basis. The IRS may deny an applicant participation in IRS e-file for a variety of reasons that include but are not limited to:
+1. An indictment or conviction of any criminal offense under the laws of the United States or of a state or other political subdivision, or an active IRS criminal investigation;
+2. Failure to file accurate federal, state or local tax returns;
+3. Failure to pay any federal, state or local tax liability;
+4. Assessment of fraud penalties;
+5. Suspension or disbarment from practice before the IRS or before a state or local tax agency;
+6. Disreputable conduct or other facts that may adversely impact IRS e-file;
+7. Misrepresentation on an IRS e-file Application, which includes using another individual's personal information (name, SSN, etc.) without their permission (i.e., identity theft);
+8. Unethical practices in return preparation;
+9. Non-compliance with IRC 6695(g);
+10. Stockpiling returns prior to official acceptance to participate in IRS e-file;
+11. Directly or indirectly employing or accepting assistance from any firm, organization or individual denied participation in IRS e-file, or suspended or expelled from participating in IRS e-file. This includes any individual whose actions resulted in the denial, suspension or expulsion of a firm from IRS e-file;
+12. Directly or indirectly accepting employment as an associate, correspondent or as a subagent from, or sharing fees with, any firm, organization or individual denied participation in IRS e-file, or suspended or expelled from participating in IRS e-file. This includes any individual whose actions resulted in denial, suspension or expulsion of a firm from IRS e-file;
+13. Enjoined from filing returns by a federal or state court injunction or prohibited from filing returns by any Federal or State legal action that prohibits them from participation. A type of such legal action is a Federal Executive Order such as Executive Order 13224 (September 23, 2001), which involves prohibitions directed at individuals and entities that commit, or pose a significant risk of committing, acts of terrorism or that provide support, services, or assistance to, or associate with, terrorists and terrorist organizations.
+EFINs and ETINs
+Providers must protect their EFINs and ETINs from unauthorized use and never share them. This includes accepting payment for the use of an EFIN/ETIN (e.g., renting, leasing, purchasing) or transferring EFINs or ETINs to another entity when transferring the business by sale, gift or other disposition. The new entity must get their own EFIN, which can only be issued by the IRS. Note: Only the IRS has the authority to issue EFINs/ETINs. When the IRS determines that a Provider is renting, leasing, or purchasing another Provider's EFIN, or is allowing others who have not passed suitability to use the Provider's EFIN, the Provider will be sanctioned. When an EFIN or ETIN is compromised, IRS will take the appropriate actions to protect IRS e-file.
+All Providers must include their identification numbers with the electronic return data of all returns the Provider transmits to the IRS. If more than one Provider participates in the origination and transmission of the return data, applicable electronic filing identification numbers (EFIN and ETIN) for each Provider must be included in the electronic return record. Online Providers must include an EFIN with a Prefix Code of 10, 21, 32, 44 or 53 with each Online Return.
+
+9
+
+IRS e-file | Application & Participation
+
+Become an Authorized IRS e-file Provider
+Checking Other Authorized IRS e-file Providers
+Providers may use only other Authorized IRS e-file Providers to perform IRS e-file activities, including origination and transmission of electronic submission. For example, Transmitters must ensure they are transmitting only for Electronic Return Originators (EROs). They should request others provide information to prove that they are authorized Providers with an active EFIN. It is essential to safeguard IRS e-file.
+A Provider can print a summary of its e-file application via e-Services at IRS.gov and provide it to other Providers as needed. Providers can also confirm EROs using the Authorized IRS e-file Provider Locator (Locator) at IRS.gov. If an ERO can't be found, it may still be an Authorized IRS e-file Provider as EROs may elect not to be included on the Locator. If you need assistance to search the Locator, contact the e-help Desk at 866-255-0654 or go to E-file Provider Services page and click the chat bubble in the bottom right corner.
+Using Third Parties for IRS e-file Related Activities
+Providers may associate with third parties that are not authorized Providers for related activities such as advertising, collection of taxpayer data and Web services, which are not e-file activities, but only if the third party agrees to adhere to all applicable requirements for participation in IRS e-file. The IRS may require the Provider to discontinue their association with third parties that are not adhering to IRS e-file requirements. The IRS may also sanction a Provider that knowingly and either directly or indirectly associates with a third party that is not adhering to applicable IRS e-file requirements.
+When to Submit a New Application
+Applicants and Providers must either submit a new application or reapply for any of the reasons below. Principals and Responsible Officials may have to provide fingerprints or professional credential information.
+ They never participated in IRS e-file  They were previously denied participation in IRS e-file  They were previously suspended from IRS e-file  They have not submitted any e-file returns in the current or prior year  The Business Structure has changed, requiring use of a new or different Taxpayer Identification Number (TIN)
+Adding New Business Locations
+Providers may need to submit new IRS e-file Applications when expanding their e-file businesses to new business locations. EROs must submit new applications for additional fixed locations from which the origination of the electronic submission of returns will occur. A separate EFIN is required for each fixed location that originates electronic submission of returns. A fixed location is an office owned or leased by the ERO.
+For additional locations, owned by the Provider, where the ERO does not originate the electronic submission of returns, the EFIN of the owner's fixed location can be used. For example, if tax returns are prepared or collected at a location owned by the same Provider, but forwarded to another location for origination of the electronic submission, a new application is not required for the location where the tax returns are prepared or collected.
+
+10
+
+IRS e-file | Application & Participation
+
+Become an Authorized IRS e-file Provider
+Obtaining a Foreign EFIN
+Providers may obtain an Electronic Filing Identification Number (EFIN) for use by a firm in "its business-related group" if the firm can't obtain an EFIN because its Principals and/or Responsible Officials are not U. S. citizens or aliens lawfully admitted for permanent residence as described in 8 USC 1101(a)(20). The term "businessrelated group" applies to brother-sister firms, subsidiaries, franchises, affiliates, etc. "Business-related group" is broad to include any business relationship. The Provider may establish its own policies to determine the firms for which it will obtain an EFIN and how it monitors the use of the EFIN.
+The Provider must submit an IRS e-file application for each foreign EFIN it wants to obtain. The Provider must include its address as the mailing address, but include the physical address of the firm for which it is obtaining the foreign EFIN. The IRS will issue EFINs to the Provider for each location from which the firm in its "businessrelated group" will originate the electronic submission of returns. The Provider is responsible for the EFINs and may delete the EFIN assigned to any firm location when it determines appropriate.
+The Provider is responsible for the business-related firm's adherence to IRS e-file rules, but is not responsible for the preparation of returns of the firm in its "business-related group." The Provider should only obtain EFINs for other firms it knows to be trustworthy. IRS will look to the Principals and the Responsible Officials if necessary to assist the IRS in gathering information to address potential violations of IRS e-file rules by the "business-related" firm. The IRS may inactivate the EFIN for a "business-related" firm that is not adhering to IRS e-file rules without sanctioning the Provider or affecting its other EFINs.
+For additional information see Questions and Answers on IRS.gov.
+Acquiring an IRS e-file Business by Purchase, Transfer or Gift
+Providers that acquire an existing IRS e-file business by purchase, transfer or gift must submit a new IRS e-file Application and receive a new Electronic Filing Identification Number (EFIN). The Provider must submit an e-file application and proof of sale, transfer or gift during the period beginning 45 days before and ending 30 days after the acquisition date.
+Providers that acquire an existing IRS e-file business by purchase, transfer or gift may not use the EFIN/ETIN of the previous Provider. Providers may not acquire the EFIN/ETIN of another Provider by sale, merger, loan, gift, lease, rent or otherwise. If a Provider is renting/leasing/purchasing or allowing others who have not passed suitability to use their EFIN, the Provider may be subject to sanction.
+When transfers occur during filing season, Providers should contact the IRS prior to the acquisition for assistance in making a smooth transition. Providers interested in acquiring firms suspended, expelled, or revoked from participation in IRS e-file or denied acceptance to participate in IRS e-file should also contact the e-help Desk at 866-255-0654 or go to E-file Provider Services page and click the chat bubble in the bottom right corner, to discuss transition issues.
+
+11
+
+IRS e-file | Application & Participation
+
+Become an Authorized IRS e-file Provider
+Keeping Your IRS e-file Application Up to Date
+Providers should ensure that the IRS has current information by reviewing and updating their IRS e-file Applications. Providers may review their IRS e-file Application information electronically via e-Services. A Principal, Principal Consent or Responsible Official /Delegated User with the proper authorities, can revise and submit an IRS e-file Application.
+Providers must submit updates within 30 days of a change of any information. It is important to provide updates such as Principals, Responsible Officials, addresses, telephone numbers and removing individuals no longer associated with the firm, including deceased individuals. The IRS needs current information to be able to contact Providers and obtain or provide important information.
+The IRS will inactivate EFINs with a Principal or Responsible Official that is deceased if the firm does not remove the individual within 30 days of the date of death. IRS also inactivates EFINs of Providers when it receives undeliverable mail or is unable to contact a Provider. The IRS rejects all returns submitted by the Provider until the appropriate updates are made and the IRS reactivates the EFIN.
+Note: Changes submitted on an IRS e-file Application do not change the address of IRS tax records just as a change to IRS tax records does not automatically update information on a Provider's IRS e-file Application.
+Exceptions ­ Changes that require a firm to acquire a new Employer Identification Number (EIN) require a Provider to submit a new IRS e-file Application. Firms that change their form of organization, such as from a sole proprietorship to a corporation, generally require the firm to acquire a new EIN.
+Providers that sell, transfer or otherwise discontinue an IRS e-file business must notify the IRS within 30 days. The easiest way to notify the IRS is to use the "Close Office" feature on IRS e-file Application on e-Services. If notifying by letter, be sure to include enough information to identify the correct business location. Providers may not sell or transfer EFINs, other identification numbers, or passwords when selling, transferring or otherwise discontinuing an IRS e-file business.
+Revision of the IRS e-file Application Requiring Resubmission
+The following situations are changes that require resubmission of the IRS e-file Application:
+ Adding/Removing a Principal or Responsible Official  Adding/Removing a Delegated User or Contact  Adding a Provider Option Fingerprints or credentials for new Principals and Responsible Officials of the firm are required unless the individual is listed as a Principal or Responsible Official on the application of a Provider currently participating in IRS e-file.
+
+12
+
+IRS e-file | Application & Participation
+
+Participating in IRS e-file
+Participating in IRS e-file
+Authorized IRS e-file Providers (Providers) must adhere to applicable IRS e-file rules and requirements to continue participating in IRS e-file. The IRS e-file rules and requirements are included in Revenue Procedure 2007-40, throughout this publication and in other IRS e-file publications and notices on the IRS.gov. Providers must adhere to all applicable IRS e-file rules and requirements regardless of where they are published.
+Providers should familiarize themselves with the revenue procedure, the e-file publications and e-file information on IRS.gov to ensure compliance with requirements for participation in IRS e-file.
+Some rules and requirements are specific to the e-file activity performed by the Provider. Additional rules and requirements specific to the Provider's e-file activity are included under each Provider Option. The list below, while not all-inclusive, applies to all Providers:
+ Adhere to the advertising standards described in this publication  Clearly display the Provider's "doing business as" name at all locations and websites that the Provider or
+a third party obtains information from taxpayers for electronic filing of returns  Cooperate with the IRS' efforts to monitor and investigate electronic filing for fraud and abuse  Comply with provisions for all e-file programs, including Free File and pilot programs in which the
+Provider participates  Ensure against the unauthorized use of its EFIN and/or ETIN, including not transferring its EFIN or ETIN
+to another entity, when transferring the business by sale, gift, or other disposition  Ensure the security of taxpayer information  Revise the IRS e-file Application as described within this publication within 30 days
+Safeguarding IRS e-file
+Safeguarding of IRS e-file from fraud and abuse is the shared responsibility of the IRS and Providers. Providers must be diligent in recognizing fraud and abuse, reporting it to the IRS and preventing it when possible. Providers must also cooperate with the IRS' investigations by making available to the IRS, upon request, information and documents related to returns with potential fraud or abuse. Additional information regarding reporting fraud and abuse in IRS e-file is available at IRS.gov.
+Indicators of abusive or fraudulent returns may be unsatisfactory responses to filing status questions, multiple returns with the same address, and missing or incomplete schedules for income and expense documentation. A "fraudulent return" is a return in which the individual is attempting to file using someone else's name or SSN on the return or where the taxpayer is presenting documents or information that have no basis in fact. A "potentially abusive return" is a return the taxpayer is required to file but may contain inaccurate information and may lead to an understatement of a liability or an overstatement of a credit resulting in production of a refund to which the taxpayer may not be entitled.
+
+13
+
+IRS e-file | Application & Participation
+
+Participating in IRS e-file
+Safeguarding Taxpayer Information
+Safeguarding taxpayer information is a top priority for the Internal Revenue Service. It is the responsibility of governments, businesses, organizations and individuals that receive, maintain, share, transmit or store taxpayers' personal information. Taxpayer information is information furnished in any form or manner by or on behalf of taxpayers for preparation or filing of their returns. Providers must safeguard taxpayer information from unauthorized disclosure, use and destruction. In addition, they must be diligent in detecting and preventing identity-theft fraud patterns and schemes to protect taxpayers and IRS e-file from identity-theft refund fraud. Early detection of these patterns and schemes is critical to stopping them and their adverse impacts, and to protecting taxpayers and IRS e-file.
+Providers must have security systems in place to prevent unauthorized access by third parties to taxpayer accounts and personal information. The Gramm-Leach-Bliley Act, codified at 15 USC 6801-6827, and the implementing rules and regulations promulgated by the Federal Trade Commission include rules that are designed to ensure the security and privacy of taxpayer information and are applicable to Providers. Providers should become familiar with the Privacy and Security Rules and other important information regarding safeguarding personal information available at the FTC website.
+Providers must implement security and privacy practices that are appropriate for the size, complexity, nature and scope of their business activities. The IRS Publication 4557, Safeguarding Taxpayer Data A Guide for Your Business, contains information to help non-governmental businesses, organizations and individuals to understand and meet their responsibility to safeguard taxpayer information.
+The IRS may set forth additional safeguarding requirements for Providers as it determines appropriate, which will be included in revisions of applicable e-file publications. Additional information can be found on IRS.gov.
+Registration of Websites with the IRS
+To safeguard taxpayer information, the IRS requires Providers to register with the IRS all websites that collect taxpayer information, either directly or through third parties, and used by the Provider for federal returns that are filed electronically.
+Providers must submit the following information to the IRS prior to the website being accessible on the Internet:
+1. An EFIN for the Provider;
+2. The name of a Principal or Responsible Official shown on the e-file application for the EFIN; and
+3. The Uniform Resource Locators (URLs) of all websites from which the Provider collects information from taxpayers, either directly or through third parties, for electronic filing of federal returns.
+Any changes to the information provided above must be made to the e-file application within three business days.
+Providers must login to e-Services and navigate to the e-file Application. Click "URL Collection" and proceed as instructed. If "URL Collection" is not in the e-file Application Menu, click "Firm Information" and select "Yes" in response to the website question. After saving, the "URL Collection" link should be available on the "e-file Application" summary page.
+
+14
+
+IRS e-file | Application & Participation
+
+Participating in IRS e-file
+Provider Roles and Responsibilities
+The roles and responsibilities of Providers relate to the e-file activity the firm is conducting. The firm identifies its e-file activity by selecting the appropriate Provider Option in the IRS e-file Application. Each Provider Option is a different role and may have different responsibilities that relate specifically to the e-file activity of the firm. Some Providers may have more than one e-file business activity. For example, an Online Provider may also be a Transmitter. Providers must adhere to all IRS e-file rules and requirements applicable to their multiple e-file roles.
+Electronic Return Originator
+An Electronic Return Originator (ERO) is the Authorized IRS e-file Provider that begins the process of the electronic submission of a return to the IRS. The ERO is usually the first point of contact for most taxpayers filing a return using IRS e-file.
+The Origination of an Electronic Return
+An ERO begins the electronic submission of a return after the taxpayer authorizes the filing of the return via IRS e-file. An ERO must begin the electronic submission of only returns that the ERO either prepared or collected from a taxpayer or another Provider. An ERO begins the electronic submission by any of the following:
+ Electronically sending the return to a Transmitter that will transmit the return to the IRS  Directly transmitting the return to the IRS  Providing a return to an Intermediate Service Provider for processing prior to transmission to the IRS In beginning the process of the electronic submission of a return, the ERO has a variety of responsibilities, including, but not limited to the following:  Beginning the electronic submission of returns timely  Submitting any required supporting paper documents to the IRS  Providing copies to taxpayers  Retaining records and making records available to the IRS  Accepting returns only from taxpayers and Providers  Reporting income derived from electronic filing activities properly. For this purpose, the firm or individual
+(sole-proprietorship) listed on the e-file application must be the entity that reports income derived from electronic filing activities.
+
+15
+
+IRS e-file | Application & Participation
+
+Participating in IRS e-file
+
+Intermediate Service Provider
+An Intermediate Service Provider receives tax information from an ERO (or from a taxpayer who files electronically using a personal computer and commercial tax preparation software), processes the tax return information and either forwards the information to a Transmitter or sends the information back to the ERO (or taxpayer for online filing).
+The Intermediate Service Provider has a variety of responsibilities that include, but are not limited to the following:
+ Including its Electronic Filing Identification Number (EFIN) and the ERO's EFIN with all return information it forwards to a Transmitter
+ Serving as a contact point between its client EROs and the IRS, if requested  Providing the IRS with a list of each client ERO, if requested  Adhering to all applicable rules that apply to Transmitters
+Software Developer
+A Software Developer develops software for the purposes of formatting electronic return information according to IRS e-file specifications and/or transmitting electronic return information directly to the IRS. IRS e-file specifications are contained in the e-file publications listed in the Appendix below.
+Software Developers must pass either acceptance or assurance testing.
+A Software Developer has a variety of responsibilities that include, but are not limited to the following:
+ Promptly correcting any software error causing returns to reject and distributing the correction  Ensuring its software creates accurate returns  Adhering to specifications provided by the IRS in publications  When selling software for resale (re-branding, white label, etc.), the software developer must ensure that
+the original purchaser does not resell the software with the original purchaser's EFIN. When the software is activated, the EFIN should not be owned by the original purchaser (reseller). The person buying the resold software must obtain their own EFIN.
+Transmitter
+A Transmitter transmits electronic tax return information directly to the IRS. A bump-up service provider that increases the transmission rate or line speed of formatted or reformatted information sent to the IRS via a public switched telephone network is also a Transmitter. The IRS accepts transmissions using a variety of telecommunication protocols.
+To transmit electronic return data directly to the IRS, Transmitters must be equipped with both computer hardware and software. Prior to transmitting return data to the IRS, the firm's application must have the "Transmitter" Provider Option with an EFIN and ETIN. Testing that ensures the compatibility of your transmission systems with the IRS systems must be completed to enable transmission of the electronic return data to the IRS.
+A Transmitter has a variety of responsibilities that include, but are not limited to the following:
+ Ensuring EFINs of Providers are included as required by IRS e-file specifications in the electronic return record of returns it transmits
+ Timely transmitting returns to the IRS, retrieving acknowledgment files and sending the acknowledgment file information to the ERO, Intermediate Service Provider or taxpayer (for online filing)
+ Promptly correcting any transmission error that causes an electronic transmission to be rejected
+
+16
+
+IRS e-file | Application & Participation
+
+Participating in IRS e-file
+
+Reporting Agent
+A Reporting Agent is an accounting service entity authorized by its client to prepare, sign and file Employment Tax Returns electronically. When adding this provider option, the system validates that the EIN entered on the application has a Form 8655, Reporting Agent Authorization, on file.
+Not for Profit Providers
+All requirements of an Authorized IRS e-file Provider apply to Not for Profit Providers, unless otherwise noted. See Publication 1345, Authorized IRS e-file Providers of Individual Income Tax Returns, for additional information.
+IRS Sponsored Programs
+IRS sponsored programs, including Volunteer Income Tax Assistance (VITA), Tax Counseling for the Elderly (TCE) and Self-Help (Free File or Facilitated Self Assistance (FSA)) may electronically file returns. A VITA or TCE sponsor must obtain the permission of the IRS (and in the case of a TCE sponsor, the permission of the IRS office that is funding the TCE program) to participate in IRS e-file.
+Employers Offering IRS e-file as an Employee Benefit
+An employer may offer electronic filing as an employee benefit whether the employer chooses to transmit returns or contracts with a third party to transmit the tax returns.
+Testing
+The purpose of testing is to ensure, prior to live processing, that Providers transmit in the correct format and meet the IRS electronic filing specifications; that returns have few validation or math errors; and that Providers understand the mechanics of IRS e-file.
+All Software Developers must complete Acceptance or Assurance Testing in accordance with the applicable publication for each type of return. Communication testing is a requirement for Reporting Agents and Transmitters planning to transmit electronic returns to the IRS. Most software packages (IRS accepted e-file software) have communications tests built in so that completing this requirement is relatively easy. Follow the directions in the software or documentation package. If you have problems, you should first contact either the vendor that sold you the software or the technical support operation for the software package.
+A Provider can view its "Forms Transmission Status" on the summary page of the e-file application. Software Developers can view the information they provided to the IRS about each of their software packages, the IRS assigned Software ID number, and the test status of a particular package.
+If the software appears to be working correctly but you can't complete the tests, you do not receive acknowledgment files or experience other problems, contact the e-help Desk at 866-255-0654.
+Advertising Standards
+"IRS e-file" is a brand name. Firms accepted for participation in IRS e-file as EROs, Transmitters, Intermediate Service Providers, Reporting Agents and Software Developers are "Authorized IRS e-file Providers." Acceptance to participate in IRS e-file does not imply endorsement by the IRS, Financial Management Service (FMS) or Treasury of the software or quality of services provided. All Providers must abide by the following advertising standards.
+
+17
+
+IRS e-file | Application & Participation
+
+Participating in IRS e-file
+A Provider must comply with the advertising and solicitation restrictions in section 10.30 of 31 C.F.R. Part 10 (Treasury Department Circular No. 230). This circular prohibits the use or participation in the use of any form of public communication or private solicitation containing a false, fraudulent, coercive, misleading, or deceptive statement or claim. A Provider must adhere to all relevant federal, state and local consumer protection laws that relate to advertising and soliciting.
+The Provider must not use improper or misleading advertising in relation to IRS e-file. For example, any claim concerning a faster refund by virtue of electronic filing must be consistent with the language in official IRS publications. The Provider must clearly describe that a financial institution is advancing funds as a loan or will provide the funds for other financial products. The advertisement on a Refund Anticipation Loan (RAL) or other financial product must be easy to identify and in easily readable print. It must be clear in the advertising that the taxpayer is borrowing against the anticipated refund or obtaining funds and not the refund itself from the financial institution.
+A Provider must not use the IRS' name, "Internal Revenue Service," or "IRS" within a firm's Doing Business As name. However, once accepted to participate in IRS e-file, a firm may represent itself as an "Authorized IRS e-file Provider." Advertising materials must not carry the FMS, IRS or other Treasury Seals. Advertising for a cooperative electronic filing project (public or private sector), must clearly state the names of all cooperating parties.
+The IRS does not have a copyright for the IRS e-file logo. Use the logo only to indicate that a Provider offers this service to taxpayers or has performed it on behalf of a taxpayer. Providers must not use the logo to portray any other relationship between the IRS and any Provider. In using the IRS e-file logo, the Provider must use the following guidelines:
+ Do not combine the logo with the IRS eagle symbol, the word "Federal" or with other words or symbols that suggest a special relationship with the IRS
+ Do not place text closer than ¼ inch from the logo
+ Do not overprint other words or symbols on the logo
+ Do not change the letter spacing or type style
+In one-color products, the logo should be printed a solid color, preferably PMS 285 blue. In multi-color products, print the logo in solid PMS 285 blue with the lightning bolt in solid PMS 109 yellow. When using color systems other than Pantone (PMS), the colors should be as close as possible to the PMS shades.
+If a Provider uses radio, television, Internet, signage or other methods of communication to advertise IRS e-file, the Provider must keep a copy of the text or, if prerecorded, the recorded advertisement and provide it to the IRS upon request. A Provider must retain copies until the end of the calendar year following the last transmission or use.
+If a Provider uses direct mail, e-mail, fax communications or other distribution methods to advertise, the Provider must retain a copy, as well as a list or other description of the firms, organizations, or individuals to whom the communication was sent. The Provider must retain the records until the end of the calendar year following the date sent and provide the records to the IRS upon request.
+If a Provider's advertising is not in compliance, the IRS may at its discretion temporarily inactivate e-file privileges until the advertising is brought into compliance. For example, if a Provider's website has words or logos outside the rules identified in this section, the IRS may inactivate e-file privileges until the wording and/or logos are changed and/or the website is taken down. Repeated violations or failure to remove non-compliant advertising within a reasonable time frame may result in sanctions.
+
+18
+
+IRS e-file | Application & Participation
+
+Participating in IRS e-file
+Monitoring of IRS e-file Providers
+The IRS monitors Providers for compliance with the revenue procedure and IRS e-file rules and requirements.
+Continuous Suitability
+All Providers, except those that function solely as Software Developers, must pass a suitability check on the firm as well as all Principals and Responsible Officials of the firm prior to acceptance to participate in IRS e-file. The Continuous Suitability process ensures ongoing compliance by monitoring authorized e-file providers for any changes that might affect their eligibility. If the results of a suitability check indicate that a firm or individual does not meet or adhere to IRS e-file requirements, the IRS may revoke or sanction the Provider from participating in IRS e-file.
+IRS e-file Monitoring Visitations
+The IRS monitors Providers through review of IRS records and during visits to Providers' offices and other locations where Providers perform IRS e-file activities. During monitoring visits, the IRS may investigate complaints and ensure compliance with IRS e-file rules. Monitoring may include, but is not limited to the following:
+ Reviewing the quality of IRS e-file submissions for rejects and other defects  Checking adherence to signature requirements on returns  Scrutinizing advertising material  Review records  Observing office and security procedures  Checking Tax Compliance on the Firm, Principals and Responsible Officials and pursuing
+non-compliance
+Revocation
+The IRS may revoke participation of a firm, a Principal or a Responsible Official in IRS e-file if either a federal court order enjoins them from filing returns, or if they are prohibited by a federal or state legal action that would prohibit participation in e-file. A type of such legal action is a Federal Executive Order, including Executive Order 13224 (September 23, 2001), which involves prohibitions directed at individuals and entities that commit, or pose a significant risk of committing, acts of terrorism or that provide support, services, or assistance to, or associate with, terrorists and terrorist organizations.
+They are not entitled to an administrative review process for revocation of participation in IRS e-file if the IRS denies or revokes a Provider, Principal or a Responsible Official because of a federal court order enjoining filing of returns or a federal or state legal action that prohibits participation in filing of returns. If the injunction or other legal action expires or is reversed, the revoked Provider may reapply to participate in IRS e-file after the injunction or other legal action expires or is reversed.
+
+19
+
+IRS e-file | Application & Participation
+
+Participating in IRS e-file
+Sanctioning
+Violations of IRS e-file requirements may result in warning or sanctioning Principals, Responsible Officials and the Provider. The IRS may sanction any Provider when the firm or any of its Principals or Responsible Officials fails to comply with any requirement or any provision of this publication, as well as other publications and notices that govern IRS e-file. The IRS may also sanction for the same reasons that it denies an application to participate in IRS e-file. See Denial to Participate in IRS e-file. Before imposing a more stringent sanction, the IRS may issue a warning letter that describes specific corrective action the Provider must take. The IRS may also sanction without issuance of a warning letter.
+Sanctioning may be a written reprimand, suspension or expulsion from participation from IRS e-file, depending on the seriousness of the infraction. The IRS categorizes the seriousness of infractions as Level One, Level Two and Level Three. The firm, Principal or Responsible Official may appeal through the Administrative Review Process. Suspended Providers and individuals are usually ineligible to participate in IRS e-file for a period of either one or two years from the effective date of the sanction, but they may reapply after resolution of suitability issues. Individuals of firms expelled from participation may be eligible for reconsideration after five years.
+In most circumstances, a sanction is effective 30 days after the date of the letter informing of the sanction or the date the reviewing offices or the IRS Independent Office of Appeals affirms the sanction, whichever is later. In certain circumstances, the IRS can immediately suspend or expel a Firm, Principal or Responsible Official without warning or notice. When a firm, Principal or Responsible Official is suspended or expelled from participation in IRS e-file, all other e-file applications for which the same individuals are involved may also be subject to the same sanction.
+The IRS may list in the Internal Revenue Bulletin, newsletters or other media the name and owner of any entity suspended, expelled or revoked from participation in IRS e-file and the effective date of the IRS action.
+Levels of Infractions
+ Level One Infractions ­ Level One Infractions are violations of IRS e-file rules and requirements that, in the opinion of the IRS, have little or no adverse impact on the quality of electronically filed returns or on IRS e-file. The IRS may issue a written reprimand or other sanctions for a Level One Infraction.
+ Level Two Infractions ­ Level Two Infractions are violations of IRS e-file rules and requirements that, in the opinion of the IRS, have an adverse impact upon the quality of electronically filed returns or on IRS e-file. Level Two Infractions include continued Level One Infractions after the IRS has brought the Level One Infraction to the attention of the Authorized IRS e-file Provider (Provider). A Level Two Infraction may result in suspension from participation in IRS e-file for one or two years depending on the severity of the infraction.
+ Level Three Infractions ­ Level Three Infractions are violations of IRS e-file rules and requirements that, in the opinion of the IRS, have a significant adverse impact on the quality of electronically filed returns or on IRS e-file. Level Three Infractions include continued Level Two Infractions after the IRS has brought the Level Two Infraction to the attention of the Provider. A Level Three Infraction may result in suspension from participation in IRS e-file for two years, or depending on the severity of the infraction, such as identity theft, fraud or criminal conduct. It may result in an immediate suspension or expulsion without the opportunity for future participation. The IRS reserves the right to suspend or expel a Provider prior to administrative review for Level Three Infractions.
+
+20
+
+IRS e-file | Application & Participation
+
+Participating in IRS e-file
+Administrative Review Process Overview
+The firm, Principals and Responsible Officials of denied applicants and sanctioned Providers are entitled to an administrative review. Administrative Review Process is the process by which a denied applicant or sanctioned Authorized IRS e-file Provider may appeal the IRS's denial or sanction. The administrative review process can be a two-step process:
+ Step 1 ­ The firm, Principals or Responsible Officials must request an administrative review in writing to the office that denied or sanctioned them.
+ If the reviewing office upholds the denial or the sanction then;
+ Step 2 ­ The firm, Principals or Responsible Officials may appeal the denial or sanction by submitting a written signed response to the IRS Independent Office of Appeals.
+Failure to request either an administrative review or appeal within 30 calendar days of the date of any denial or sanction letter, terminates the right to an administrative review or appeal.
+Administrative Review Process for Denial of Participation in IRS e-file
+Firms, Principals or Responsible Officials denied participation in IRS e-file usually have the right to an administrative review in the form of a written, signed response. They may fax a written response to 877477-0567 or mail it to the address shown in the denial letter. In addition to faxing or mailing documentation in response to application and suitability letters, you may upload documentation directly to the IRS using a Document Upload Tool (DUT).
+To send your response electronically, use the DUT link on your letter. If you use the DUT to respond to correspondence, there is no need to respond by mail or fax, as this may delay the processing of your response. Your reply must be received within 30 calendar days of the date of the denial letter. The applicant's response must address the IRS' reason(s) for denial, have supporting documentation and be signed. During this administrative review process, the denial of participation remains in effect. Upon receipt of a timely written response, the IRS reevaluates its denial of the participation in IRS e-file. The IRS may either issue an acceptance letter or a subsequent denial letter.
+A firm, Principal or Responsible Official who receives a subsequent denial letter is entitled to an appeal. They must submit the response in writing to the attention of the IRS Independent Office of Appeals, by faxing a written response to 877-477-0567 or mailing it to the address shown in the subsequent denial letter within 30 calendar days of the date of the denial letter. The written response must contain a detailed explanation that addresses the denial, along with documentation supporting why the IRS should reverse the decision.
+The Administrative Review Process for Sanctioning
+Firms, Principals and Responsible Officials have the right to an administrative review if the IRS advises of either a proposed, recommended or immediate sanction. They can fax or mail a signed, detailed written explanation with supporting documentation as to why the IRS should reverse its decision and not impose the sanction within 30 calendar days of the date of the letter to the office that issued the letter. During this administrative review process, an immediate sanction remains in effect.
+
+21
+
+IRS e-file | Application & Participation
+
+Participating in IRS e-file
+Upon receipt of a written response, the IRS reviews the response and issues a letter indicating whether the sanction was upheld or reversed. If a firm, Principal or Responsible Official receives a letter affirming a suspension or an expulsion, they can appeal to the IRS Independent Office of Appeals. The response must be in writing, signed and faxed or mailed to the IRS office that issued the recommended sanctioning letter within 30 calendar days of the date of the letter. The written appeal must contain detailed reasons, with supporting documentation, to show why the IRS should reverse its decision and not impose the recommended suspension or expulsion.
+Note: Administrative Review and Appeals are only available for proposed, recommended or immediate suspensions and expulsions. Written reprimands can't be appealed as they carry no immediate consequence.
+Reconsideration after Expulsion
+Individuals that can't participate in IRS e-file because they or their firms were expelled may be reconsidered after a five-year waiting period. This period begins five years from the date the firm was expelled or five years after the individual has completed rehabilitation (e.g., incarceration, parole, probation, restitution, etc.).
+To request consideration, fax (877-477-0567) or mail a letter to: Internal Revenue Service, Electronic Products and Services Support, 310 Lowell Street, Stop 983, Andover, MA 01810. You must provide an explanation as to why you should be allowed to reapply and include a copy of your expulsion letter with any pertinent documents to support your position. In addition, you must meet all eligibility requirements to participate in IRS e-file. You will be notified in writing regarding your request.
+
+22
+
+IRS e-file | Application & Participation
+
+Appendix
+Appendix
+References
+ e-News for Tax Professionals, provides the latest national news for the tax professional community, as well as links to resources on IRS.gov and local news and events by state. For more information on the electronic subscription services, visit "Tax Professionals" at IRS.gov, click on "Subscription Services" under "Tax Professional Topics."
+ IRS website (IRS.gov), The IRS regularly posts important information, including updates and Frequently Asked Questions (FAQs). Taxpayers can use the IRS website to locate the nearest Electronic Return Originators to assist them with e-filing returns.
+ QuickAlerts, provide up-to-the-minute e-file information. It is the IRS' technology messaging system for Providers. Users receive messages by e-mail. The messages advise of problems that may interrupt processing or acknowledgment of electronically filed returns, publication changes for IRS e-file and other information of interest to Authorized IRS e-file Providers.
+ Automated Enrollment (AE), The IRS developed this guide for the Modernized e-File (MeF) Application's authorized contacts who need to use Automated Enrollment (AE) to enroll A2A Client Application Systems into the IRS Application to Application (A2A) channel.
+ Publication 1345, Authorized IRS e-file Providers of Individual Income Tax Returns, contains requirements and important information for participating in IRS e-file of Individual Income Tax Returns.
+ Publication 1436, Assurance Testing System (ATS) Guidelines for Modernized e-File (MeF) Individual Tax Return, contains scenarios and instructions for preparing test material for Electronic Filing of Individual Income Tax Returns.
+ Publication 1474, Technical Specifications Guide For Reporting Agent Authorization and Federal Tax Depositors, contains technical file specifications for Reporting Agents.
+ Publication 4163, Modernized e-file (MeF) Information for Authorized IRS e-file Providers for Business Returns, contains requirements and important information for participating in IRS e-file of Business Returns.
+ Publication 4164, Modernized e-file (MeF) Guide for Software Developers and Transmitters, outlines the communication procedures, transmission formats, business rules and validation procedures for returns e-filed through the Modernized e-file (MeF) system.
+ Publication 4557, Safeguarding Taxpayer Data A Guide for Your Business, contains information to safeguarding taxpayer data. The purpose of this Publication is to provide information on legal requirements to safeguard taxpayer data.
+ Revenue Procedure 2007-40, Requirements of Participants in the IRS e-file Program, specifies the requirements for participating as Authorized IRS e-file Providers, and is the official set of rules that govern participation in IRS e-file. The IRS revises the revenue procedure as needed. The IRS may post additional e-file rules to the IRS Web site and include the rules in IRS e-file publications.
+ Treasury Department Circular No. 230, Regulations Governing Practice before the Internal Revenue Service.
+
+23
+
+IRS e-file | Application & Participation
+
+

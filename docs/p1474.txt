@@ -1,0 +1,614 @@
+Technical Specifications Guide For Reporting Agent Authorization and Federal Tax Depositors
+Publication 1474 (Rev. 4-2026) Catalog Number 10821H Department of the Treasury Internal Revenue Service www.irs.gov
+
+Table of Contents
+Table of Contents......................................................................................................................2 Purpose.....................................................................................................................................1 Changes....................................................................................................................................1 Effective Date............................................................................................................................1 Section 01. Submission Of Reporting Agent Authorizations (RAAs)........................................1 Section 02. Submission Of RAAs For Federal Tax Deposits (FTDs) And Federal Tax Payments (FTPs) .......................................................................................................................................7 Section 03. Additional Information............................................................................................7 Section 04. Conventions And Definitions.................................................................................8 Section 04.02 Definitions..........................................................................................................9 Section 05. Electronic File Specifications.................................................................................9 Exhibit 1: Form 8655, Reporting Agent Authorization............................................................ 11 Exhibit 2: Reporting Agent's List............................................................................................14 Exhibit 3: Reporting Agent Record.........................................................................................15 Exhibit 4: Taxpayer Record.....................................................................................................16 Exhibit 5: End of File Trailer Record........................................................................................23
+
+Purpose
+The purpose of this publication is to provide instructions and technical specifications for the preparation and submission of Form 8655, Reporting Agent Authorization, and Reporting Agent's List of clients/taxpayers for electronic filing. This publication includes the requirements for paper submission of Reporting Agent's List, file specifications, electronic record sequence order, processing criteria, record layouts, and exhibits. This publication should be used in conjunction with Revenue Procedure (Rev. Proc.) 2012-32, 2012-34 I.R.B. 267 (previously Rev. Proc. 2007-38, 2007-25 I.R.B. 1442). For more information on reporting agents, search IRS.gov for "reporting agent technical fact sheet."
+Changes
+Form 8655 was revised in January 2024. See Exhibit 1. Forms 940-PR, 941-PR, 941-SS and 943PR were removed from line 15. Taxpayer Record (Exhibit 4) has been updated to reflect these changes. Corrected employment tax returns Form 941-X, 943-X and Form 945-X can be electronically filed. Removed references to Secure Data Transfer (SDT) as a file transfer method. Secure Large File Transfer Business 2 Business (SLFT B2B) is the only approved method for electronic submission of Reporting Agent's Lists. Editorial changes have been made throughout this publication.
+Effective Date
+This publication is effective on the revision date printed on the cover leaf. All previous revisions are obsoleted.
+1
+
+Section 01. Submission Of Reporting Agent Authorizations (RAAs)
+Section 01.01 Reporting Agents must submit Reporting Agent's Lists and accompanying Forms 8655 according to the specifications provided in this publication. Taxpayers use Form 8655 to give the required Authorization for Reporting Agents to file/sign client/ taxpayer employment tax returns and pay client/taxpayer tax according to the guidelines set forth in 2012-32, 2012-34 I.R.B. 267. Reporting Agents must comply with requirements to file/sign certain client/taxpayer employment tax returns and/or pay certain client/taxpayer tax electronically. For related information regarding IRS's e-file Program, refer to Publication 3112, IRS e-file Application and Participation, and Rev. Proc. 2007-40, 2007-26 I.R.B. 1488. For related information regarding the Electronic Federal Tax Payment System (EFTPS), refer to Publication 4169, Tax Professional Guide to Electronic Federal Tax Payment System, Rev. Proc. 2012-33, 2012-34 I.R.B. 272, and Rev. Proc. 97-33, 1997-2 C.B. 371. Copies of these publications and revenue procedures are available on the Internet at www.irs.gov or by calling (800) TAX-FORM ((800) 829-3676).
+A new Authorization must be submitted to the Service for any increase or decrease in the scope of the authority of a Reporting Agent to act on behalf of the taxpayer, but the preceding Authorization regarding the taxpayer and the Reporting Agent shall remain in effect except as modified by the new Authorization. A new Authorization must also be submitted to the Service if a taxpayer appoints a new Reporting Agent. Receipt by the Service of an Authorization designating a new Reporting Agent terminates the authority of the prior Reporting Agent for all purposes for tax periods beginning on or after the effective date of the new Authorization. An Authorization designating a new Reporting Agent also terminates the authority of the prior Reporting Agent to receive duplicate copies of notices. For the tax periods beginning before the effective date of the new Authorization, the prior Reporting Agent retains the authority specified in the prior Authorization unless the taxpayer explicitly revokes the prior Authorization.
+An Authorization does not relieve the taxpayer of the responsibility (or from liability for failing) to ensure that all tax returns are filed timely and that all FTDs and FTPs are made timely. RA's are required to provide a written statement in this regard to each taxpayer when it enters into a contract for services with the taxpayer and on at least a quarterly basis for as long as the RA provides services to the taxpayer. See Section 5.05 of Rev. Proc. 2012-32, 2012-34 I.R.B. 267 for more information.
+Section 01.02 The initial Reporting Agent's List and accompanying Forms 8655 must be submitted prior to or at the same time as the Application to Participate in IRS e-file Program is submitted.
+Section 01.03 The Reporting Agent's List must be accompanied by the Forms 8655 signed by the taxpayer or authorized representative (See Rev. Proc. 2012-32, 2012-34 I.R.B. 267). An image on compact disc (CD), photocopy, or fax of the Forms 8655 is acceptable. Images provided on CD must be in Tagged Image File format (.tif).
+New RAAs must be submitted on Form 8655 with a revision date of May 2005 or later, or on an approved substitute form as described in Publication 1167, General Rules and Specifications for Substitute Forms and Schedules.
+2
+
+An Authorization on the latest revision of Form 8655 is not required to replace an Authorization made on a prior revision, provided that:
+1) The Authorization places no restriction on the medium for filing Forms 940, Employer's Annual Federal Unemployment (FUTA) Tax Return, or Forms 941, Employer's Quarterly Federal Tax Return, and
+2) The RA advises its client that Forms 940/941 may be filed electronically, and provides the client with the option of rejecting electronic filing as the medium for filing these forms. The RA may use the most efficient and timely method of clearly providing this notification to a client. A client's rejection of electronic filing for Forms 940/941 must be submitted in writing to the RA; and
+3) The RA immediately removes any client from its electronic filing client base when the client rejects having Forms 940/941 filed electronically.
+Section 01.04 Reporting agents may secure electronic signatures on Form 8655 using the following guidance. This is the currently the only guidance for electronic signatures on this form, and guidance for electronic signatures for other forms may not be applied to Form 8655.
+Generally, a Reporting Agent securing an e-Signature for Form 8655 must exercise due diligence to ensure the taxpayer or their authorized representative is authorized to sign Form 8655 (as specified in Section 6.02 of Rev. Rev. Proc. 2012-32, 2012- 34 I.R.B. 267 and in the General Instructions for Form 8655) by authenticating the signor's identity via one of the two approved methods specified in 1) below. The Reporting Agent must also capture and record an electronic signature of the taxpayer or their authorized representative using one of the two approved methods for electronically signed Forms 8655 specified in 2) below. The saved version of the e-signed Form 8655 must display evidence of the e-signature, as noted below.
+1) There are currently two approved methods for Reporting Agents to authenticate the identity of the person signing Form 8655:
+a. An authorized representative of the Reporting Agent must visually inspect an official state or federal government-issued photo identification document to authenticate the identity of the taxpayer or authorized representative prior to their electronic signing of the Authorization. This visual inspection of official state or federal governmentissued photo identification must occur in the physical presence of the taxpayer or authorized representative in a Point of Sale (POS) environment. The Reporting Agent must document and retain a record that this visual inspection of official state or federal government- issued photo identification was completed at the time an e-Signature was secured for Form 8655. Reporting Agents are not permitted to secure an electronic signature for Form 8655 from the taxpayer or their authorized representatives in the event that their identity cannot be verified via inspection of official state or federal government-issued photo identification.
+b. Alternately, for purposes of electronically signing Form 8655, the Reporting Agent may contract with a third party provider offering commercial electronic signature authentication services to verify the identity of the taxpayer or their authorized
+3
+
+representative. Such services must include a feature wherein some information known only to the taxpayer or their authorized representative (e.g. name, address, and truncated SSN of the taxpayer or their authorized representative) is obtained from the taxpayer or their authorized representative in a secure environment and passed to the third party provider for a return of a pass/fail identity authentication result to the Reporting Agent. This third party authentication method may be utilized in either remote or Point of Sale (POS) environments. The Reporting Agent must document and retain a record that the third party authentication process yielded a "pass" result at the time an e-Signature was secured for Form 8655. Optionally, Reporting Agents may adopt more rigorous third party authentication protocols such as utilizing commercial authentication services posing multiple Knowledge Based Authentication (KBA) questions for response by the taxpayer or their authorized representative in a real time environment. A Reporting Agent adopting a more rigorous third party authentication protocol must document and retain a record that the third party authentication process yielded a "pass" result at the time an e-Signature was secured for Form 8655. Reporting Agents are not permitted to secure an electronic signature for Form 8655 from the taxpayer or their authorized representatives in the event that the third party provider returns a "fail" result to the Reporting Agent.
+2) After verifying the identity of the taxpayer or their authorized representative as specified above, a Reporting Agent may secure an electronic signature by means (only) of one of the following two approved methods for e-Signatures on Form 8655:
+a. The Reporting Agent may secure and record an electronic signature by capturing the signature of a taxpayer or authorized representative for the purpose of signing Form 8655 on an electronic stylus device in a Point of Sale (POS) environment (only). The taxpayer or authorized representative must be informed that they are electronically signing the Authorization. The saved version of the e-signed Form 8655 must display an image of the captured e-signature.
+b. The Reporting Agent may secure an electronic signature for the purpose of signing Form 8655 by presenting the taxpayer or authorized representative the option on an electronic device (computer, tablet, etc.) to select a checkbox agreeing that by doing so they are electronically signing Form 8655. This checkbox must be selectable by the taxpayer or their authorized representative; it cannot be pre-populated on the electronic device being utilized to secure the electronic signature of the taxpayer or their authorized representative. The taxpayer or authorized representative must be informed via language incorporated within the checkbox option itself or in close proximity (immediately preceding, directly next to, or immediately succeeding) to the check box item that by selecting the checkbox they are electronically signing the Authorization. In addition to recording the selection of the checkbox, the Reporting Agent must capture and record the date and time of the signature event and the IP address of the electronic device on which the electronic signature was captured. This electronic signature method for Form 8655 may be utilized in either a remote environment through a secure portal or in a Point of Sale (POS) environment. The saved version of the e-signed Form 8655 must display the date and time of the signature event and the IP address of the electronic device on which the electronic signature was captured.
+4
+
+Optionally, in addition to capturing the electronic signature event data described above, the Reporting Agent may choose to capture and record additional electronic data elements such as a signature facsimile created by a mouse device, a signature facsimile created by means of a generated font, a voice recording, etc. However, it is not permissible to substitute any optionally captured additional data elements for one of the two approved identity authentication methods for electronically signed Forms 8655 described above or in lieu of obtaining the agreement of the taxpayer or their authorized representative to electronically sign Form 8655 via the checkbox methodology described here.
+Reporting Agents that adopt e-Signature methodologies discussed above are required to follow all other requirements for Authorizations, including but not limited to submitting Forms 8655 to the Internal Revenue Service as discussed in Section 01.03 of this publication and retaining a copy or reproducible image of each Form 8655 as discussed in Section 03.01 of this publication. Each submitted and retained e-signed Form 8655 must display evidence, as described above, of the e-signature; failure to include this required information may result in rejection of Form 8655.
+However, Reporting Agents that adopt e-Signature methodologies discussed above and who are required to file Reporting Agent's Lists electronically (exceeds the 100-per-week submission threshold described in Section 01.06 of this publication and in Rev. Proc. 2012-32, 2012-34 I.R.B. 267) will not be required to submit copies of such Authorizations when submitting the Reporting Agent's List.
+Section 01.05 The IRS will accept and process to the Reporting Agents File (RAF) Authorizations for electronic signature/submission of Forms 940, 941, 943, 944, 945 and amended or successor forms including Form 941-X, Form 943-X and Form 945-X.
+The IRS will also accept and process to the RAF Authorizations for signing and filing on paper Forma 940-PR, Planilla Para La Declaración Anual Del Patrono­La Contribución Federal Para El Desempleo (FUTA), Forma 941-PR, Planilla Para La Declaración Federal Trimestral Del Patrono­ La Contribución Federal Al Seguro Social Y Al Seguro Medicare, Form 941-SS, Employer's Quarterly Federal TaxReturn, Form 943, Employer's Annual Federal Tax Return for Agricultural Employees, Forma 943-PR, Planilla Para La Declaración Anual De La Contribución Federal Del Patrono De Empleados Agricolas, Form 944, Forma 944(SP), Declaración Federal Anual de Impuestos del Patrono o Empleador, Form 945, Annual Return of Withheld Federal Income Tax, Form 1042, Annual Withholding Tax Return for U.S. Source Income of Federal Income Tax, Form CT-1, Employer's Annual Railroad Retirement Tax Return, and any amended or successor forms including Form 941-X, Adjusted Employer's ANNUAL Federal Tax Return or Claim for Refund, Form 943-X, Adjusted Employer's Annual Federal Tax Return for Agricultural Employees or Claim for Refund, Form 944-X, Adjusted Employer's QUARTERLY Federal Tax Return or Claim for Refund, Form 945-X, Adjusted Annual Return of Withheld Federal Income Tax or Claim for Refund, and Form CT-1 X, Adjusted Employer's Annual Railroad Retirement Tax Return or Claim for Refund.
+The IRS will accept and process Authorizations for submissions of Federal Tax Deposits (FTDs) and Federal Tax Payments (FTPs) for Forms 940, 941, 940, 941, 943, 944, 945 and amended or successor forms including Form 941-X, Form 943-X and Form 945-X
+The IRS will accept and process Authorizations for disclosure of confidential taxpayer
+5
+
+information corresponding to the forms authorized for signing, filing, and/or making payments. The IRS will also accept and process Authorizations for disclosure of confidential taxpayer information to assist in responding to certain IRS notices relating to the Form W-2 and/or Form 1099 series information returns, and/or the Form 3921 or Form 3922 information returns. The authority for the Form W-2 series is limited to years 2004 and subsequent. The authority for the Form 1099 series is limited to years 2006 and subsequent. The authority for the Form 3921 or Form 3922 information returns is limited to years 2010 and subsequent.
+Section 01.06 There are two methods of submitting the Reporting Agent's List: electronically or on paper. If the number of client/taxpayer submissions exceeds 100 per week, the Reporting Agent's List is required to be filed electronically. Effective December 2025, the IRS finalized its transition from Secure Data Transfer (SDT) service used for file transfers with external trading partners (ETP) to the new service, Secure Large File Transfer Business 2 Business (SLFT B2B). SLFT B2B is the only approved method for electronic submission of Reporting Agent's Lists. Use of the SLFT B2B system requires the purchase of an electronic identity authentication certificate from a designated third party. At this time, the IRS is unable to support optional use of the SLFT B2B system for submission of Reporting Agent's Lists by Reporting Agents that are not otherwise required to file electronically (exceeds the 100 per week submission threshold described above and in Rev. Proc. 2012-32, 2012-34 I.R.B. 267). This is true even if a Reporting Agent is approved for use of SLFT B2B for submission of electronic files for other purposes. This publication will be updated if it is later determined that the IRS can support optional use of the SLFT B2B system for the purpose of submitting Reporting Agent's Lists.
+Section 01.07 Reporting Agent's Lists submitted electronically must be submitted in accordance with the specifications in Sections 04 and 05 of this publication.
+Section 01.08 Reporting Agent's Lists on paper must be submitted using the format indicated in Exhibit 2 of this publication or instructions in Rev. Proc. 2012-33 for Batch Filers and Bulk Filers. Reporting Agent's Lists and Forms 8655 must be submitted in ascending numerical order by Employer Identification Number (EIN).
+Section 01.09 The IRS will validate the information on the Reporting Agent's List and the associated RAAs. If the Reporting Agent's List was submitted electronically, the IRS will return electronic add/error lists. If the Reporting Agent's List was submitted on paper, the IRS will return the paper listing reflecting add/error status. The validated Reporting Agent's List will include the Name Control for each employer.
+Section 01.10 The following items must be included in the Reporting Agent's List. An example of the Reporting Agent's List is provided in Exhibit 2.
+6
+
+1. Name and Address of RA 2. RA's Employer Identification Number (EIN) 3. List Type - either Additions or Deletions. Separate lists must be prepared for additions and
+deletions. 4. Name of RA's Contact Person 5. Phone Number of RA's Contact Person 6. Client Account Number ­ this is an optional field for benefit of RAs. 7. Taxpayer's Employer Identification Number (EIN) 8. Name Control ­ leave blank. This will be entered by IRS during processing. 9. Name and Address of taxpayer - this should match the name on IRS records. For a sole
+proprietor, enter the owner's name.
+Section 01.11 If the RA wishes to add or delete clients/taxpayers from its authorized list, the format for both the electronic file and the paper Reporting Agent's List is the same as for the initial listing submission, except the list or file type is designated as "delete."
+Section 01.12 The RA should notify the IRS when the RA determines that it will no longer be filing tax returns or making FTD/FTP submissions for a taxpayer. This is accomplished by submitting a Reporting Agent's List, type "delete," either electronically or on paper.
+Section 01.13 Paper Forms 8655 and Reporting Agent's Lists must be sent to the full address shown below to ensure proper delivery for submissions of RAAs:
+Form 8655 and Paper Reporting Agent's Lists Delivery:
+Internal Revenue Service Accounts Management Service Center MS 6748; RAF Team 1973 N. Rulon White Blvd. Ogden, UT 84404
+Forms 8655 and paper Reporting Agent Lists may also be faxed to the RAF Team at 855-214-7523.
+Section 02. Submission Of RAAs For Federal Tax Deposits (FTDs) And Federal Tax Payments (FTPs)
+Section 02.01 The IRS will accept and process Authorizations for submissions of Federal Tax Deposits (FTDs) and Federal Tax Payments (FTPs) for Forms 940, 941, 943, 944, 945, 720, 1041, 1042, 1120, CT-1, 990-PF and 990-T. A Reporting Agent must make FTDs and submit FTD information via EFTPS or the Federal Tax Application (FTA).
+7
+
+Section 02.02 These Authorizations will be used to verify the authority given by the taxpayer to an RA to make FTDs/FTPs on the taxpayer's behalf.
+
+Section 03. Additional Information
+Section 03.01 RAs must keep a copy or reproducible image of each completed, original Form 8655, designating that Reporting Agent as an agent for a taxpayer, at the RA's principal place of business and make it available for examination by the IRS until the period of limitations for assessment of tax for the last return filed pursuant to the Authorization expires.
+Questions regarding this publication should be addressed to the RAF Team at the address shown in Section 01.12 above. This publication may be downloaded or printed from the Internet at www.irs.gov.
+Information concerning the Electronic Federal Tax Payment System (EFTPS) may be obtained by calling EFTPS Customer Service at (800) 555-4477. For information or questions regarding the IRS e-File Program, call the e-Help Desk at (866) 255-0654.
+
+Section 04. Conventions And Definitions
+Section 04-01 Conventions
+1) RAs submitting their initial, add or delete lists electronically must conform to the ASCII character set.
+2) RAs that submit their initial, add or delete lists electronically via SLFT B2B must conform to the following file naming conventions: Example: aaaRAF5001###YYYYJJJ.txt
+
+File Name Element aaa
+RAF5001 ###
+YYYY JJJ
+
+Entry and/or Definition
+The initial characters of the file name must be the 3 or 4 character Reporting Agent's SLFT B2B Account Name.
+The literal "RAF5001" identifies the project and must follow the Reporting Agent's SLFT B2B Account Name.
+This element must follow the literal "RAF5001" and specifies the sequence number, in ascending order beginning with "001", of the transmission made by the Reporting Agent on a particular day. For example, if the Reporting Agent submits three files on a particular day, the first file would contain the sequence number element "001", the second file would contain "002" for this element, and the third file name would contain "003" for this element,
+The current calendar year,
+The current Julian date.
+
+8
+
+File Name Element .txt
+
+Entry and/or Definition
+Each electronic file name must include the file name extension ".txt" in order to pass firewall restrictions.
+
+Section 04.02 Definitions
+Element ASCII
+Blocking Factors EIN File FTD Julian Date RA RAA Record Reporting Agent
+Reporting Agent List Special Character Taxpayer
+YYYYMM
+YYYYDDD
+
+Description American Standard Code for Information Interchange Blocked Records Two or more records grouped together.
+The number of records grouped together to form a block. b Denotes a blank position.
+Employer Identification Number.
+A file consists of all records submitted by an RA
+Federal Tax Deposit
+The number of the day of the year (1-365, or 1-366 for leap years
+Reporting Agent
+Reporting Agent Authorization
+A group of related fields of information treated as a unit.
+A Reporting Agent is an accounting service, franchiser, bank, service bureau, or other entity authorized to perform payroll services for other businesses.
+A Reporting Agent's List identifies taxpayers for whom an RA will perform authorized payroll services.
+Any character that is not a numeral, letter or blank.
+Person or organization liable for the filing of returns and payment of tax. The taxpayer will be held responsible for the completeness, accuracy and timely submission of all returns they are required to file and payments they are required to submit.
+YYYY = Four digit year; MM = ending month of the tax period (01-12). Examples: first quarter 2025 returns = 202503; fourth quarter 2025 returns = 202512; calendar year 2025 returns = 202512.
+YYYY = Four digit year; DDD = Julian Date. Examples: January 1, 2025 = 2025001; February 21, 2025 = 202552.
+
+Section 05. Electronic File Specifications
+Section 05.01 An acceptable electronic file will contain the following: Reporting Agent Record 9
+
+Taxpayer Record(s) - one for each Authorization submitted End of File Trailer Record Section 05.02 Record Length The electronic file records prescribed in the specifications must be blocked at one record per block (400 character positions).
+Section 05.03 Data Only character data may be used. Numeric fields must be right justified with remaining unused positions zero filled. The only special characters permitted in the name lines of the Reporting Agent "RA" Record and Taxpayer "TP" Record(s) are "-" and "&". Special characters in the street address fields are limited to "-", "&", "%" or "/". Otherwise, characters must be numeric or alphabetic. All numeric data should be in unsigned ASCII characters (no binary data).
+Section 05.04 Reporting Agent Record The Reporting Agent Record identifies the RA that submits the RAAs and electronic file (see Exhibit 3). The Reporting Agent Record must immediately precede the first Taxpayer Record reported.
+Section 05.05 Client/Taxpayer Records Taxpayer Records contain information for each authorization contained in the file being submitted by the RA (see Exhibit 4). The number of Taxpayer Records appearing in the file should correspond to the number of RAAs being submitted. All Taxpayer Records in the file must be in ascending numerical order by EIN in the same manner required for paper listings. All records will be blocked individually with no other records in the block. Records should have a blocking factor for which blocks will not exceed 400 character positions. All records must be fixed length. Fields identified as indicators should always carry a value if the field is applicable. Other fields must be left justified and blank filled on right. Also, blank fill all non-significant fields.
+Section 05.06 End Of File Trailer Record This record contains a count of all Taxpayer Records contained in the file (see Exhibit 5). The Trailer Record must be the last record in the electronic file.
+10
+
+Exhibit 1: Form 8655, Reporting Agent Authorization
+
+8655 Form
+
+Reporting Agent Authorization
+
+(Rev. January 2024)
+
+OMB No. 1545-1058
+
+Department of the Treasury Internal Revenue Service
+
+Go to www.irs.gov/Form8655 for instructions and the latest information.
+
+Taxpayer
+
+1a Name of taxpayer (as distinguished from trade name)
+
+2 Employer identification number (EIN)
+
+1b Trade name, if any 3 Address (number, street, and room or suite no.)
+
+4 If you are a seasonal employer, check here . . . . . . .
+5 Other identification number (optional)
+
+City or town, state, and ZIP code
+
+6 Contact person
+
+7 Daytime telephone number
+
+8 Fax number
+
+Reporting Agent
+9 Name (enter company name or name of business)
+
+10 Employer identification number (EIN)
+
+11 Address (number, street, and room or suite no.)
+
+City or town, state, and ZIP code
+
+12 Contact person
+
+13 Daytime telephone number
+
+14 Fax number
+
+Authorization of Reporting Agent To Sign and File Returns (Caution: See Authorization Agreement.)
+
+15 Indicate the tax return(s) to be signed and filed. For quarterly returns, use "YYYY/MM" format. "MM" is the last month of the quarter for which the authorization begins (for example, "2024/09" for third quarter of 2024). For annual returns, use "YYYY" format to indicate the year for which the authorization begins.
+
+940
+
+941
+
+943
+
+944
+
+945
+
+1042
+
+CT-1
+
+Authorization of Reporting Agent To Make Deposits and Payments (Caution: See Authorization Agreement.)
+
+16 Indicate the tax return(s) for which the reporting agent is authorized to make deposits or payments. Use the "YYYY/MM" format to enter the month in which the authorization begins (for example, "2024/08" for August 2024).
+
+720 990-PF
+
+940 990-T
+
+941 1041
+
+943 1042
+
+944 1120
+
+945 CT-1
+
+Duplicate Notices to Reporting Agents
+
+17 Check here to request the IRS to issue to the reporting agent duplicate copies of notices and correspondence regarding returns filed and deposits or payments made by the reporting agent . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Disclosure Authorization for Forms Series W-2, 1099, and/or 3921/3922
+
+18a The reporting agent is authorized to receive otherwise confidential taxpayer information from the IRS to assist in responding to certain IRS
+
+notices relating to the Form W-2 series information returns. This authority is effective for calendar year forms beginning
+
+.
+
+b The reporting agent is authorized to receive otherwise confidential taxpayer information from the IRS to assist in responding to certain IRS
+
+notices relating to the Form 1099 series information returns. This authority is effective for calendar year forms beginning
+
+.
+
+c The reporting agent is authorized to receive otherwise confidential taxpayer information from the IRS to assist in responding to certain IRS
+
+notices relating to the Forms 3921 and 3922. This authority is effective for calendar year forms beginning
+
+.
+
+State or Local Authorization (Caution: See Authorization Agreement.)
+
+19 Check here to authorize the reporting agent to sign and file state or local returns related to the authorization granted on line 15 and/or line 16 .
+
+Authorization Agreement
+
+I understand that this agreement does not relieve me, as the taxpayer, of the responsibility to ensure that all tax returns are filed and that all deposits and payments are made and that I may enroll in the Electronic Federal Tax Payment System (EFTPS) to view deposits and payments made on my behalf. If line 15 is completed, the reporting agent named above is authorized to sign and file the return indicated, beginning with the quarter or year indicated. If any starting dates on line 16 are completed, the reporting agent named above is authorized to make deposits and payments beginning with the period indicated. Any authorization granted remains in effect until it is terminated or revoked by the taxpayer or reporting agent. I am authorizing the IRS to disclose otherwise confidential tax information to the reporting agent relating to the authority granted on line 15 and/or line 16, including disclosures required to process Form 8655. Disclosure authority is effective upon signature of taxpayer and IRS receipt of Form 8655. The authority granted on Form 8655 will not revoke any Power of Attorney (Form 2848) or Tax Information Authorization (Form 8821) in effect.
+
+Sign Here
+
+I certify I have the authority to execute this form and authorize disclosure of otherwise confidential information on behalf of the taxpayer.
+
+Signature of taxpayer
+
+Title
+
+Date
+
+For Privacy Act and Paperwork Reduction Act Notice, see instructions.
+
+Cat. No. 10241T
+
+Form 8655 (Rev. 1-2024)
+
+11
+
+Form 8655 (Rev. 1-2024)
+Instructions
+What's New
+Forms 940-PR, 941-PR, 941-SS, 943-PR removed from line 15. Beginning with filings for tax year 2023, former filers of Form 940-PR will instead file Form 940. These filers will also have the option to file the new Spanish language Form 940 (sp). The new Form 943 (sp) will also similarly replace Form 943-PR which is being discontinued along with Form 940-PR. Beginning with filings for the first quarter of 2024, former filers of Form 941-SS will instead file Form 941, which will be adapted for the use of those filers beginning with the revision of Form 941 issued in and for the first quarter of 2024. These filers will also have the option to file the new Spanish language Form 941 (sp). The new Form 941 (sp) will also similarly replace Form 941-PR which is being discontinued along with Form 941-SS. Forms 940 (sp), 941 (sp), and 943 (sp) will be usable by any employer that prefers their form in Spanish, whether they are located in the United States, Puerto Rico, or one of the other territories.
+Purpose of Form
+Use Form 8655 to authorize a reporting agent to:
+· Sign and file certain returns. Reporting agents must file returns electronically except as provided under Rev. Proc. 2012-32. You can find Rev. Proc. 2012-32 on page 267 of Internal Revenue Bulletin 2012-34 at www.irs.gov/2012rp32. See Pub. 3112, IRS e-file Application and Participation, for information about e-filing and getting the reporting agent PIN;
+· Make deposits and payments for certain returns. Reporting agents must make deposits and payments electronically, generally through the Electronic Federal Tax Payment System (EFTPS) at EFTPS.gov. See Pub. 4169, Tax Professional Guide to the EFTPS, and Rev. Proc. 2012-33;
+· Receive duplicate copies of tax information, notices, and other written and/or electronic communication regarding any authority granted; and
+· Provide the IRS with information to aid in penalty relief determinations related to the authority granted on Form 8655.
+Note: An authorization does not relieve the taxpayer of the responsibility (or from liability for failing) to ensure that all tax returns are filed timely and that all federal tax deposits (FTDs) and federal tax payments (FTPs) are made timely. A reporting agent must notify its client of that fact and must recommend that it enroll in EFTPS to view EFTPS deposits and payments made on the client's behalf. A reporting agent must provide this notification, in writing, upon entering into an agreement with the client and at least quarterly thereafter for as long as it provides services to that client. Sample language and other details may be found in Rev. Proc. 2012-32, Section 5.05.
+Authority Granted
+Once Form 8655 is signed, any authority granted is effective beginning with the period indicated on lines 15, 16, 18a, 18b, and/or 18c and continues indefinitely unless terminated or revoked by the taxpayer or reporting agent. No authorization or authority is granted for periods prior to the period(s) indicated on Form 8655.
+Where authority is granted for any form, it is also effective for related forms such as the corresponding non-English language form, amended return (for example, Form 941 (sp), 941-X, or 941-X (sp)), or payment voucher. For example, Form 8655 can be used to provide authorization for 944 (sp) using the entry spaces for Form 944. The form also can be used to authorize a reporting agent to make deposits and payments for other returns in the Form 1120 series, such as Form 1120-C, using the entry space for Form 1120 on line 16.
+
+Page 2
+Disclosure authority is effective upon signature of taxpayer and IRS receipt of Form 8655. Any authority granted on Form 8655 does not revoke and has no effect on any authority granted on Form 2848 or 8821, or any third-party designee checkbox authority.
+To increase the authority granted to a reporting agent by a Form 8655 already in effect, submit another signed Form 8655, completing lines 1­14 and any line on which you want to add authority. To decrease the authority granted to a reporting agent by a Form 8655 already in effect, send a signed, written request to the address under Where To File. The preceding authorization remains in effect except as modified by the new one.
+Where To File
+Send Form 8655 to:
+Internal Revenue Service Accounts Management Service Center MS 6748 RAF Team 1973 North Rulon White Blvd. Ogden, UT 84404
+You can fax Form 8655 to the IRS. The number is 855-214-7523. When faxing Forms 8655, please send no more than 25 forms in a single transmission. If possible, please send faxes from your computer instead of a fax machine.
+Additional Information
+Additional information concerning reporting agent authorizations may be found in:
+· Pub. 1474, Technical Specifications Guide for Reporting Agent Authorization and Federal Tax Depositors.
+· Rev. Proc. 2012-32.
+Substitute Form 8655
+If you want to prepare and use a substitute Form 8655, see Pub. 1167, General Rules and Specifications for Substitute Forms and Schedules. If your substitute Form 8655 is approved, the form approval number must be printed in the lower left margin of each substitute Form 8655 you file with the IRS.
+Terminating or Revoking an Authorization
+If you have a valid Form 8655 on file with the IRS, the filing of a new Form 8655 indicating a new reporting agent terminates the authority of the prior reporting agent beginning with the period indicated on the new Form 8655. However, the prior reporting agent is still an authorized reporting agent and retains any previously granted disclosure authority for the periods prior to the beginning period of the new reporting agent's authorization unless specifically revoked.
+If the taxpayer wants to revoke an existing authorization, such that the reporting agent would no longer be authorized to act or receive information for previously authorized tax periods, send a copy of the previously executed Form 8655 to the IRS at the address under Where To File, above. Re-sign the copy of the Form 8655 under the original signature. Write "REVOKE" across the top of the form. If you do not have a copy of the authorization you want to revoke, send a statement to the IRS. The statement of revocation must indicate that the authority of the reporting agent is revoked and must be signed by the taxpayer. Also, list the name and address of each reporting agent whose authority is revoked.
+A reporting agent may terminate its authority by filing a statement with the IRS, either on paper or using a delete process. A reporting agent wanting to revoke its authority must submit the request in writing. The statement must be signed by the reporting agent (if filed on paper) and identify the name and address of the taxpayer and authorization(s) from which the reporting agent is withdrawing. For information on the delete process, see Pub. 1474.
+
+12
+
+Form 8655 (Rev. 1-2024)
+Who Must Sign
+Electronic signature. For guidance on optional electronic signature methods, including approved methods of authentication and signature and additional items that must appear on the Form 8655, see Pub. 1474, section 01.03.
+Sole proprietorship. The individual owning the business.
+Corporation (including a limited liability company (LLC) treated as a corporation). Generally, Form 8655 can be signed by (a) an officer having legal authority to bind the corporation, (b) any person designated by the board of directors or other governing body, (c) any officer or employee on written request by any principal officer, and (d) any other person authorized to access information under section 6103(e).
+Partnership (including an LLC treated as a partnership) or an unincorporated organization. Generally, Form 8655 can be signed by any person who was a member of the partnership during any part of the tax period covered by Form 8655.
+Single member LLC treated as a disregarded entity. The owner of the LLC.
+Trust or estate. The fiduciary.
+Privacy Act and Paperwork Reduction Act Notice. We ask for the information on this form to carry out the Internal Revenue laws of the United States. Our authority to request this information is Internal Revenue Code sections 6011, 6061, 6109, and 6302 and the regulations thereunder. We use this information to identify you and record your reporting agent authorization. You are not required to authorize a reporting agent to act on your behalf. However, if you choose to authorize
+
+Page 3
+a reporting agent, you are required to provide the information requested, including your identification number. Failure to provide all the information requested may prevent or delay processing of your authorization; providing false or fraudulent information may subject you to penalties.
+Routine uses of this information include giving it to the Department of Justice for civil and criminal litigation, and to cities, states, the District of Columbia, and U.S. commonwealths and possessions for use in administering their tax laws. We may also disclose this information to other countries under a tax treaty, to federal and state agencies to enforce federal nontax criminal laws, or to federal law enforcement agencies and intelligence agencies to combat terrorism.
+You are not required to provide the information requested on a form that is subject to the Paperwork Reduction Act unless the form displays a valid OMB control number. Books or records relating to a form or its instructions must be retained as long as their contents may become material in the administration of any Internal Revenue law.
+The time needed to complete and file Form 8655 will vary depending on individual circumstances. The estimated average time is 1 hour, 7 minutes.
+If you have comments concerning the accuracy of this time estimate or suggestions for making Form 8655 simpler, we would be happy to hear from you. You can send us comments from www.irs.gov/FormComments. Or you can send your comments to Internal Revenue Service, Tax Forms and Publications Division, 1111 Constitution Ave. NW, IR-6526, Washington, DC 20224. Do not send Form 8655 to this address. Instead, see Where To File, earlier.
+
+13
+
+Exhibit 2: Reporting Agent's List Reporting Agent's List Date of List
+Reporting Agent's Name________________________________________________________________ Reporting Agent's Street Address________________________________________________________ Reporting Agent's City, State, ZIP________________________________________________________ Reporting Agent's Employer Identification Number_________________________________________ List Type (Additions or Deletions)________________________________________________________ Name of Reporting Agent's Contact Person_______________________________________________ Phone Number of Reporting Agent's Contact Person______________________________________
+
+Client Account Number (optional) 10035
+10037
+12345
+
+Employer Identification Number
+*12-00000XX
+
+Name Control (IRS Supplied)
+
+*32-0000XXX
+
+*52-000XXXX
+
+Taxpayer Name and Address
+Taxpayer One 1 First St Firsttown, NY 10001
+Taxpayer Two 2 Second St Secondtown, NY 20002
+Taxpayer Three 3 Third St Thirdtown, NY 30003
+
+* Employer Identification Numbers must be listed in ascending numerical order.
+NOTE: The items listed under Client Account Number, Employer Identification Number, Name Control, and Taxpayer Name and Address are fictitious examples. The actual information for the taxpayer's Forms 8655 being submitted with the Reporting Agent's List should be entered. Only one copy of the Reporting Agent's List should be submitted, along with the Forms 8655, to the mailing address listed in Section 01.13 above.
+
+14
+
+Exhibit 3: Reporting Agent Record
+This record must precede the first Taxpayer Record reported in the electronic file.
+
+Record Position 1-2 3-4
+
+Element Name Record Type RA ID Number
+
+5-13 14-48
+
+RA EIN RA Name
+
+Entry and/or Definition
+Enter "RA" to indicate Reporting Agent header record. Enter the two digit number assigned by IRS for RAs with FTD/FTP Authorization. If none assigned, enter blanks.
+Enter nine digit EIN of RA. Do not include hyphen
+Enter first name line of RA. Valid characters are A-Z, 0-9, "-", "&" and one blank between each word. Invalid characters are the comma, period, number sign, apostrophe and multiple blanks. Left justify and blank fill.
+
+49-83
+
+RA Second Name Line
+
+Enter second name line of RA, if desired (for Doing Business As (DBA) or Trading as (TA)). Valid characters are A-Z, 0-9, "-", "&" and one blank between each word. Invalid characters are the comma, period, number sign, apostrophe and multiple blanks. Left justify and blank fill.
+
+84-118
+119-138
+139-140 141-149 150-159 160-195 196-400
+
+RA Street Address
+RA City
+RA State Code RA Zip Code RA Phone Number RA Contact Point Reserved
+
+Enter street address of RA. Valid characters are A-Z, 0-9, "-", "&", "%", "/" and one blank between each word. Invalid characters are the period, number sign, apostrophe and multiple blanks. Left justify and blank fill. Enter city of RA. Valid characters are A-Z, 0-9, "-" and one blank. Left justify and blank fill.
+Enter state code of RA.
+Enter zip code of RA.
+Enter ten digit primary contact phone number for RA. Do not include hyphens.
+Enter name of primary contact for RA.
+Enter blanks.
+
+15
+
+Exhibit 4: Taxpayer Record
+A Taxpayer Record is required for each Form 8655 being submitted.
+
+Record Position 1-2 3-11 12-46
+47-50 51-85
+86-105 106-107 108-116 117-126 127 128 129-132
+133-136
+
+Element Name Taxpayer Record Type
+
+Entry and/or Definition Enter "TP" to indicate a Taxpayer Record.
+
+Taxpayer EIN Taxpayer Name Taxpayer Name Control Taxpayer Street Address
+Taxpayer City
+
+Enter the 9 digit EIN of the taxpayer. Do not enter hyphens. The list must be in ascending numerical order
+Enter name of taxpayer. Valid characters are A-Z, 0-9, "-", "&" and one blank between each word. Invalid characters are the comma, period, number sign, apostrophe and multiple blanks. Left justify and blank fill.
+Enter name control of taxpayer as provided by IRS. Enter only in delete fi es.
+Enter street address of taxpayer. Valid characters are A-Z, 0-9, "-", "&", "%", "/" and one blank between each word. Invalid characters are the period, number sign, apostrophe and multiple blanks. Foreign Address: Enter street address, including province and mailing code. For example, Champs Elysee 75307 Paris. Left justify and blank fill.
+Enter city of taxpayer. Valid characters are A-Z, 0-9, "-" and one blank. Foreign Address: Enter name of country. Left justify and blank fill.
+
+Taxpayer State Code Taxpayer Zip Code Client Account Number Disclosure Indicator Notice Indicator W2 Year
+1099 Year
+
+Enter state code of taxpayer. Foreign Address: Enter ".".
+Enter zip code of taxpayer. Foreign Address: Blank fill.
+Enter client account number if desired. Left justify and blank fill. Field may be left blank if desired.
+Always enter "N". An RAA that allows filing of returns and making payments also allows disclosure of information to the RA.
+Enter "N" if authorized to receive copies of taxpayer's notices. If not, blank fill.
+Enter the beginning year in YYYY format if RAA contains an authorization for Form W-2 series information returns. If not, blank fill. W2 Year cannot be earlier than 2004. Enter the ending year in YYYY format to terminate the RAA.
+Enter the beginning year in YYYY format if RAA contains an authorization for Form 1099 series information returns. If not, blank fill. 1099 Year cannot be earlier than 2006. Enter the ending year in YYYY format to terminate the RAA.
+
+16
+
+Record Position 137 138-143
+144 145 146-151
+152 153 154-159
+160 161 162-167
+168 169 170-175
+17
+
+Element Name 940 Indicator 940 Tax Period
+940 Action Code 941 Indicator 941 Tax Period
+941 Action Code 940 FTD Indicator 940 FTD Tax Period
+940 FTD Action Code 941 FTD Indicator 941 FTD Tax Period
+941 FTD Action Code 943 FTD Indicator 943 FTD Tax Period
+
+Entry and/or Definition
+Enter "Y" if RAA contains authorization for filing Form 940 returns. If not, blank fill.
+Enter the beginning year in YYYY12 format if RAA is for Form 940 returns. Enter year of last return to be signed/filed by RA in YYYY12 format if RAA is being terminated. Leave blank if 940 Indicator is blank.
+Enter "A" if RAA for Form 940 returns is being submitted. Enter "D" if RAA is being terminated. Leave blank if 940 Indicator is blank.
+Enter "Y" if RAA contains authorization for filing Form 941 returns. If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 03, 06, 09, or 12) if RAA is for Form 941 returns. Enter period of last return to be signed/filed by RA in YYYYMM format if RAA is being terminated. Leave blank if 941 Indicator is blank.
+Enter "A" if RAA for Form 941 returns is being submitted. Enter "D" if RAA is being terminated. Leave blank if 941 Indicator is blank.
+Enter "Y" if RAA is for FTDs/FTPs for Forms 940. If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 01-12) for FTDs/ FTPs for Forms 940. Enter the last period for which RA is to make FTDs/FTPs in YYYYMM format if RAA is being terminated. Leave blank if 940 FTD Indicator is blank.
+Enter "A" if RAA containing an authorization for FTDs/ FTPs for Forms 940 is being submitted. Enter "D" if RAA is being terminated. Leave blank if 940 FTD Indicator is blank.
+Enter "Y" if RAA is for FTDs/FTPs for Forms 941. If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 01-12) if RAA is for FTDs/FTPs for Forms 941. Enter the last period for which RA is to make FTDs/ FTPs in YYYYMM format if RAA is being terminated. Leave blank if 941 FTD Indicator is blank.
+Enter "A" if RAA containing an authorization for FTDs/ FTPs for Forms 941 is being submitted. Enter "D" if RAA is being terminated. Leave blank if 941 FTD Indicator is blank.
+Enter "Y" if RAA is for FTDs/FTPs for Forms 943. If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 01-12) for FTDs/ FTPs for Forms 943. Enter the last period for which RA is to make FTDs/FTPs in YYYYMM format if RAA is being terminated. Leave blank if 943 FTD Indicator is blank.
+
+Record Position 176 177 178-183
+184 185 186-191
+192 193 194-199
+200 201 202-207
+208
+
+Element Name 943 FTD Action Code 944 FTD Indicator 944 FTD Tax Period
+944 FTD Action Code 945 FTD Indicator 945 FTD Tax Period
+945 FTD Action Code 720 FTD Indicator 720 FTD Tax Period
+720 FTD Action Code 1042 FTD Indicator 1042 FTD Tax Period
+1042 FTD Action Code
+
+Entry and/or Definition
+Enter "A" if RAA containing an authorization for FTDs/ FTPs for Forms 943 is being submitted. Enter "D" if RAA is being terminated. Leave blank if 943 FTD Indicator is blank.
+Enter "Y" if RAA is for FTDs/FTPs for Forms 944. If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 01-12) for FTDs/ FTPs for Forms 944. Enter the last period for which RA is to make FTDs/FTPs in YYYYMM format if RAA is being terminated. Leave blank if 944 FTD Indicator is blank.
+Enter "A" if RAA containing an authorization for FTDs/ FTPs for Forms 944 is being submitted. Enter "D" if RAA is being terminated. Leave blank if 944 FTD Indicator is blank.
+Enter "Y" if RAA is for FTDs/FTPs for Forms 945. If not, blank fill
+Enter the beginning period in YYYYMM format (MM must be 01-12) for FTDs/ FTPs for Forms 945. Enter the last period for which RA is to make FTDs/FTPs in YYYYMM format if RAA is being terminated. Leave blank if 945 FTD Indicator is blank.
+Enter "A" if RAA containing an authorization for FTDs/ FTPs for Forms 945 is being submitted. Enter "D" if RAA is being terminated. Leave blank if 945 FTD Indicator is blank
+Enter "Y" if RAA is for FTDs/FTPs for Forms 720. If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 01-12) for FTDs/ FTPs for Forms 720. Enter the last period for which RA is to make FTDs/FTPs in YYYYMM format if RAA is being terminated. Leave blank if 720 FTD Indicator is blank.
+Enter "A" if RAA containing an authorization for FTDs/ FTPs for Forms 720 is being submitted. Enter "D" if RAA is being terminated. Leave blank if 720 FTD Indicator is blank.
+Enter "Y" if RAA is for FTDs/FTPs for Forms 1042. If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 01-12) for FTDs/ FTPs for Forms 1042. Enter the last period for which RA is to make FTDs/FTPs in YYYYMM format if RAA is being terminated. Leave blank if 1042 FTD Indicator is blank.
+Enter "A" if RAA containing an authorization for FTDs/ FTPs for Forms 1042 is being submitted. Enter "D" if RAA is being terminated. Leave blank if 1042 FTD Indicator is blank.
+
+18
+
+Record Position 209 210-215
+216 217 218-223
+224 225 226-231
+232 233 234-239
+240 241
+
+Element Name 1120 FTD Indicator 1120 FTD Tax Period
+1120 FTD Action Code 1041 FTD Indicator 1041 FTD Tax Period
+1041 FTD Action Code CT-1 FTD Indicator CT-1 FTD Tax Period
+CT-1 FTD Action Code 944SS Indicator 944SS Tax Period
+944SS Action Code 990T FTD Indicator
+
+Entry and/or Definition
+Enter "Y" if RAA is for FTDs/FTPs for Forms1120. If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 01-12) for FTDs/ FTPs for Forms 1120. Enter the last period for which RA is to make FTDs/FTPs in YYYYMM format if RAA is being terminated. Leave blank if 1120 FTD Indicator is blank.
+Enter "A" if RAA containing an authorization for FTDs/ FTPs for Forms 1120 is being submitted. Enter "D" if RAA is being terminated. Leave blank if 1120 FTD Indicator is blank.
+Enter "Y" if RAA is for FTDs/FTPs for Forms 1041. If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 01-12) for FTDs/ FTPs for Forms 1041. Enter the last period for which RA is to make FTDs/FTPs in YYYYMM format if RAA is being terminated. Leave blank if 1041 FTD Indicator is blank.
+Enter "A" if RAA containing an authorization for FTDs/ FTPs for Forms 1041 is being submitted. Enter "D" if RAA is being terminated. Leave blank if 1041 FTD Indicator is blank.
+Enter "Y" if RAA is for FTDs/FTPs for Forms CT-1. If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 01-12) for FTDs/ FTPs for Forms CT-1. Enter the last period for which RA is to make FTDs/FTPs in YYYYMM format if RAA is being terminated. Leave blank if CT-1 FTD Indicator is blank.
+Enter "A" if RAA containing an authorization for FTDs/ FTPs for Forms CT-1 is being submitted. Enter "D" if RAA is being terminated. Leave blank if CT-1 FTD Indicator is blank.
+Enter "Y" if RAA contains authorization for filing Form 944-SS returns (not valid for years after 2011). If not, blank fill.
+Enter the beginning year in YYYY12 format if RAA is for Form 944-SS returns (not valid for years after 2011). Enter year of last return to be signed/filed by RA in YYYY12 format if RAA is being terminated. Leave blank if 944SS Indicator is blank.
+Enter "A" if RAA for Form 944-SS returns is being submitted (not valid for years after 2011). Enter "D" if RAA is being terminated. Leave blank if 944SS Indicator is blank.
+Enter "Y" if RAA is for FTDs/FTPs for Forms 990T. If not, blank fill.
+
+19
+
+Record Position 242-247
+248 249 250-255
+256 257 258-263
+264 265 266-271
+272 273
+
+Element Name 990T FTD Tax Period
+990T FTD Action Code 990PF FTD Indicator 990PF FTD Tax Period
+990PF FTD Action Code 940PR Indicator 940PR Tax Period
+940PR Action Code 941PR Indicator 941PR Tax Period
+941PR Action Code 943 Indicator
+
+Entry and/or Definition
+Enter the beginning period in YYYYMM format (MM must be 01-12) for FTDs/ FTPs for Forms 990-T. Enter the last period for which RA is to make FTDs/ FTPs in YYYYMM format if RAA is being terminated. Leave blank if 990T FTD Indicator is blank.
+Enter "A" if RAA containing an authorization for FTDs/ FTPs for Forms 990-T is being submitted. Enter "D" if RAA is being terminated. Leave blank if 990T FTD Indicator is blank.
+Enter "Y" if RAA is for FTDs/FTPs for Forms 990PF. If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 01-12) for FTDs/ FTPs for Forms 990-PF. Enter the last period for which RA is to make FTDs/ FTPs in YYYYMM format if RAA is being terminated. Leave blank if 990PF FTD Indicator is blank.
+Enter "A" if RAA containing an authorization for FTDs/ FTPs for Forms 990-PF is being submitted. Enter "D" if RAA is being terminated. Leave blank if 990PF FTD Indicator is blank.
+Enter "Y" if RAA contains authorization for filing Form 940-PR returns (not valid for years after 2022). If not, blank fill.
+Enter the beginning year in YYYY12 format if RAA is for Form 940-PR returns (not valid for years after 2022). Enter year of last return to be signed/filed by RA in YYYY12 format if RAA is being terminated. Leave blank if 940PR Indicator is blank.
+Enter "A" if RAA for Form 940-PR returns is being submitted (not valid for years after 2022). Enter "D" if RAA is being terminated. Leave blank if 940PR Indicator is blank.
+Enter "Y" if RAA contains authorization for filing Form 941-PR returns (not valid for years after 2023). If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 03, 06, 09, or 12) if RAA is for Form 941-PR returns (not valid for years after 2023). Enter period of last return to be signed/ filed by RA in YYYYMM format if RAA is being terminated. Leave blank if 941PR Indicator is blank.
+Enter "A" if RAA for Form 941-PR returns is being submitted. Enter "D" if RAA is being terminated (not valid for years after 2023). Leave blank if 941PR Indicator is blank.
+Enter "Y" if RAA contains authorization for filing Form 943 returns. If not, blank fill.
+
+20
+
+Record Position 274-279
+
+Element Name 943 Tax Period
+
+280 281 282-287
+
+943 Action Code 944 Indicator 944 Tax Period
+
+288 289 290-295
+
+944 Action Code 945 Indicator 945 Tax Period
+
+296 297 298-303
+
+945 Action Code 943PR Indicator 943PR Tax Period
+
+304 305 306-311
+
+943PR Action Code 944PR Indicator 944PR Tax Period
+
+Entry and/or Definition
+Enter the beginning year in YYYY12 format if RAA is for Form 943 returns. Enter year of last return to be signed/filed by RA in YYYY12 format if RAA is being terminated. Leave blank if 943 Indicator is blank.
+Enter "A" if RAA for Form 943 returns is being submitted. Enter "D" if RAA is being terminated. Leave blank if 943 Indicator is blank.
+Enter "Y" if RAA contains authorization for filing Form 944 returns. If not, blank fill.
+Enter the beginning year in YYYY12 format if RAA is for Form 944 returns. Enter year of last return to be signed/filed by RA in YYYY12 format if RAA is being terminated. Leave blank if 944 Indicator is blank.
+Enter "A" if RAA for Form 944 returns is being submitted. Enter "D" if RAA is being terminated. Leave blank if 944 Indicator is blank.
+Enter "Y" if RAA contains authorization for filing Form 945 returns. If not, blank fill.
+Enter the beginning year in YYYY12 format if RAA is for Form 945 returns. Enter year of last return to be signed/filed by RA in YYYY12 format if RAA is being terminated. Leave blank if 945 Indicator is blank.
+Enter "A" if RAA for Form 945 returns is being submitted. Enter "D" if RAA is being terminated. Leave blank if 945 Indicator is blank.
+Enter "Y" if RAA contains authorization for filing Form 943-PR returns (not valid for years after 2022). If not, blank fill.
+Enter the beginning year in YYYY12 format if Enter the beginning year in YYYY12 format if RAA is for Form 943-PR returns (not valid for years after 2022). Enter year of last return to be signed/filed by RA in YYYY12 format if RAA is being terminated. Leave blank if 943PR Indicator is blank.
+Enter "A" if RAA for Form 943-PR returns is being submitted (not valid for years after 2022). Enter "D" if RAA is being terminated. Leave blank if 943PR Indicator is blank.
+Enter "Y" if RAA contains authorization for filing Form 944-PR returns (not valid for years after 2011). If not, blank fill.
+Enter the beginning year in YYYY12format if RAA is for Form 944-PR returns (not valid for years after 2011). Enter year of last return to be signed/ filed by RA in YYYY12 format if RAA is being terminated. Leave blank if 944PR Indicator is blank.
+
+21
+
+Record Position 312 313 314-319
+320 321 322-327
+328 329 330-335
+336 337-340
+341-400
+
+Element Name 944PR Action Code 941SS Indicator 941SS Tax Period
+941SS Action Code CT-1 Indicator CT-1 Tax Period
+CT-1Action Code 1042 Indicator 1042 Tax Period
+1042 Action Code 3921/3922 Year
+Reserved for future use
+
+Entry and/or Definition
+Enter "A" if RAA for Form 944-PR returns is being submitted (not valid for years after 2011). Enter "D" if RAA is being terminated. Leave blank if 944PR Indicator is blank.
+Enter "Y" if RAA contains authorization for filing Form 941-SS returns (not valid for years after 2023). If not, blank fill.
+Enter the beginning period in YYYYMM format (MM must be 03, 06, 09, or 12) if RAA is for Form 941-SS returns (not valid for years after 2023). Enter period of last return to be signed/ filed by RA in YYYYMM format if RAA is being terminated. Leave blank if 941SS Indicator is blank.
+Enter "A" if RAA for Form 941-SS returns is being submitted (not valid for years after 2023). Enter "D" if RAA is being terminated. Leave blank if 944SS Indicator is blank.
+Enter "Y" if RAA contains authorization for filing Form CT-1 returns. If not, blank fill.
+Enter the beginning year in YYYY12 format if RAA is for Form CT-1 returns. Enter year of last return to be signed/filed by RA in YYYY12 format if RAA is being terminated. Leave blank if CT-1 Indicator is blank.
+Enter "A" if RAA for Form CT-1 returns is being submitted. Enter "D" if RAA is being terminated. Leave blank if CT-1 Indicator is blank.
+Enter "Y" if RAA contains authorization for filing Form 1042 returns. If not, blank fill.
+Enter the beginning year in YYYY12 format if RAA is for Form 1042 returns. Enter year of last return to be signed/filed by RA in YYYY12 format if RAA is being terminated. Leave blank if 1042 Indicator is blank.
+Enter "A" if RAA for Form 1042 returns is being submitted. Enter "D" if RAA is being terminated. Leave blank if 1042 Indicator is blank.
+Enter the beginning year in YYYY format if RAA contains an authorization for Form 3921 and 3922 information returns. If not, blank fill. 3921/3922 year cannot be earlier than 2010. Enter the ending year in YYYY format to terminate the RAA.
+Enter blanks.
+
+22
+
+Exhibit 5: End of File Trailer Record
+This record type must be the last record in the RAs electronic file.
+
+Record Position 1 2-7
+8-400
+
+Element Name Record Type # of TP Records
+Reserved
+
+Entry and/or Definition Enter "E."
+Enter the sum of TP Records you are reporting in the file. Zero fill to the left. Use numeric characters without a sign representation.
+Enter blanks.
+
+23
+
+
