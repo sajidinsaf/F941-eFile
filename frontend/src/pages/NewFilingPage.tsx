@@ -7,7 +7,7 @@ import toast from 'react-hot-toast';
 import { FilePlus, ArrowRight, Building } from 'lucide-react';
 import LoadingSpinner from '@/components/common/LoadingSpinner';
 import { filingService } from '@/services/filingService';
-import { profileService } from '@/services/profileService';
+import { profileService, type BusinessProfile } from '@/services/profileService';
 
 const currentYear = new Date().getFullYear();
 
@@ -18,12 +18,6 @@ const newFilingSchema = z.object({
 });
 
 type NewFilingFormData = z.infer<typeof newFilingSchema>;
-
-interface BusinessProfile {
-  id: number;
-  businessName: string;
-  maskedEin: string;
-}
 
 const NewFilingPage = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -128,7 +122,7 @@ const NewFilingPage = () => {
                 <option value={0}>Select a business...</option>
                 {profiles.map((p) => (
                   <option key={p.id} value={p.id}>
-                    {p.businessName} ({p.maskedEin})
+                    {p.businessName}
                   </option>
                 ))}
               </select>

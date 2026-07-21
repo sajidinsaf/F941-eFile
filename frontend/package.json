@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc --noEmit && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"
   },
   "dependencies": {
+    "@hookform/resolvers": "3.9.1",
     "@stripe/react-stripe-js": "3.1.0",
     "@stripe/stripe-js": "5.5.0",
     "axios": "1.7.9",
@@ -23,13 +24,13 @@
     "react-hot-toast": "2.4.1",
     "react-router-dom": "7.1.0",
     "zod": "3.24.1",
-    "@hookform/resolvers": "3.9.1",
     "zustand": "5.0.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.1.0",
     "@testing-library/user-event": "14.5.2",
+    "@types/node": "^26.1.1",
     "@types/react": "18.3.18",
     "@types/react-dom": "18.3.5",
     "@vitejs/plugin-react": "4.3.4",

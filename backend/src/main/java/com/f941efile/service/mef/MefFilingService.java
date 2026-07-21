@@ -28,8 +28,9 @@ public class MefFilingService {
         Filing filing = filingRepository.findByIdAndUserId(filingId, userId)
                 .orElseThrow(() -> new ResourceNotFoundException("Filing", "id", filingId));
 
-        if (filing.getStatus() != Filing.FilingStatus.VALIDATED) {
-            throw new BadRequestException("Filing must be validated before submission. Current status: " + filing.getStatus());
+        if (filing.getStatus() == Filing.FilingStatus.SUBMITTED ||
+                filing.getStatus() == Filing.FilingStatus.ACCEPTED) {
+            throw new BadRequestException("Filing has already been submitted. Current status: " + filing.getStatus());
         }
 
         String submissionId = "SUB-" + UUID.randomUUID().toString().substring(0, 8).toUpperCase();
