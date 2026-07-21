@@ -7,66 +7,46 @@ import {
   UserCircle,
   Clock,
   CheckCircle,
-  AlertCircle,
   Send,
+  AlertCircle,
 } from 'lucide-react';
 import LoadingSpinner from '@/components/common/LoadingSpinner';
 import StatusBadge from '@/components/common/StatusBadge';
-import { filingService, type Filing } from '@/services/filingService';
+import api from '@/services/api';
 import toast from 'react-hot-toast';
 
-interface DashboardSummary {
-  total: number;
-  draft: number;
-  submitted: number;
-  accepted: number;
-  rejected: number;
+interface FilingItem {
+  id: number;
+  businessName: string;
+  maskedEin: string;
+  taxYear: number;
+  quarter: number;
+  status: string;
+  totalTaxAfterCredits: number | null;
+  createdAt: string;
+  updatedAt: string;
+}
+
+interface DashboardData {
+  totalFilings: number;
+  draftFilings: number;
+  submittedFilings: number;
+  acceptedFilings: number;
+  rejectedFilings: number;
+  totalTaxReported: number;
+  recentFilings: FilingItem[];
 }
 
 const DashboardPage = () => {
-  const [filings, setFilings] = useState<Filing[]>([]);
-  const [summary, setSummary] = useState<DashboardSummary>({
-    total: 0,
-    draft: 0,
-    submitted: 0,
-    accepted: 0,
-    rejected: 0,
-  });
+  const [data, setData] = useState<DashboardData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const navigate = useNavigate();
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await filingService.list(1, 10);
-        setFilings(response.filings);
-
-        const stats: DashboardSummary = {
-          total: response.total,
-          draft: 0,
-          submitted: 0,
-          accepted: 0,
-          rejected: 0,
-        };
-
-        response.filings.forEach((filing) => {
-          switch (filing.status) {
-            case 'DRAFT':
-            case 'VALIDATED':
-              stats.draft++;
-              break;
-            case 'SUBMITTED':
-              stats.submitted++;
-              break;
-            case 'ACCEPTED':
-              stats.accepted++;
-              break;
-            case 'REJECTED':
-              stats.rejected++;
-              break;
-          }
-        });
-        setSummary(stats);
+        const response = await api.get<DashboardData>('/dashboard/summary');
+        setData(response.data);
       } catch {
         toast.error('Failed to load dashboard data');
       } finally {
@@ -77,37 +57,6 @@ const DashboardPage = () => {
     fetchData();
   }, []);
 
-  const statCards = [
-    {
-      label: 'Total Filings',
-      value: summary.total,
-      icon: FileText,
-      color: 'text-primary-600',
-      bg: 'bg-primary-50',
-    },
-    {
-      label: 'Drafts',
-      value: summary.draft,
-      icon: Clock,
-      color: 'text-gray-600',
-      bg: 'bg-gray-50',
-    },
-    {
-      label: 'Submitted',
-      value: summary.submitted,
-      icon: Send,
-      color: 'text-yellow-600',
-      bg: 'bg-yellow-50',
-    },
-    {
-      label: 'Accepted',
-      value: summary.accepted,
-      icon: CheckCircle,
-      color: 'text-green-600',
-      bg: 'bg-green-50',
-    },
-  ];
-
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-96">
@@ -115,6 +64,49 @@ const DashboardPage = () => {
       </div>
     );
   }
+
+  const summary = data || {
+    totalFilings: 0,
+    draftFilings: 0,
+    submittedFilings: 0,
+    acceptedFilings: 0,
+    rejectedFilings: 0,
+    totalTaxReported: 0,
+    recentFilings: [],
+  };
+
+  const statCards = [
+    {
+      label: 'Total Filings',
+      value: summary.totalFilings,
+      icon: FileText,
+      color: 'text-primary-600',
+      bg: 'bg-primary-50',
+    },
+    {
+      label: 'Drafts',
+      value: summary.draftFilings,
+      icon: Clock,
+      color: 'text-gray-600',
+      bg: 'bg-gray-50',
+    },
+    {
+      label: 'Submitted',
+      value: summary.submittedFilings,
+      icon: Send,
+      color: 'text-yellow-600',
+      bg: 'bg-yellow-50',
+    },
+    {
+      label: 'Accepted',
+      value: summary.acceptedFilings,
+      icon: CheckCircle,
+      color: 'text-green-600',
+      bg: 'bg-green-50',
+    },
+  ];
+
+  const filings = summary.recentFilings || [];
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -177,6 +169,9 @@ const DashboardPage = () => {
               <thead>
                 <tr className="border-b border-gray-200">
                   <th className="text-left py-3 px-4 text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Business
+                  </th>
+                  <th className="text-left py-3 px-4 text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Tax Year / Quarter
                   </th>
                   <th className="text-left py-3 px-4 text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -184,9 +179,6 @@ const DashboardPage = () => {
                   </th>
                   <th className="text-left py-3 px-4 text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Created
-                  </th>
-                  <th className="text-left py-3 px-4 text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Last Updated
                   </th>
                   <th className="text-right py-3 px-4 text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Actions
@@ -201,6 +193,12 @@ const DashboardPage = () => {
                     onClick={() => navigate(`/filings/${filing.id}/form941`)}
                   >
                     <td className="py-3 px-4">
+                      <div>
+                        <span className="font-medium text-gray-900">{filing.businessName}</span>
+                        <span className="text-xs text-gray-400 ml-2">{filing.maskedEin}</span>
+                      </div>
+                    </td>
+                    <td className="py-3 px-4">
                       <div className="flex items-center">
                         <FileText className="h-4 w-4 text-gray-400 mr-2" />
                         <span className="font-medium text-gray-900">
@@ -213,9 +211,6 @@ const DashboardPage = () => {
                     </td>
                     <td className="py-3 px-4 text-sm text-gray-500">
                       {format(new Date(filing.createdAt), 'MMM d, yyyy')}
-                    </td>
-                    <td className="py-3 px-4 text-sm text-gray-500">
-                      {format(new Date(filing.updatedAt), 'MMM d, yyyy')}
                     </td>
                     <td className="py-3 px-4 text-right">
                       {filing.status === 'REJECTED' && (

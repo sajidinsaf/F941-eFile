@@ -66,6 +66,7 @@ export interface FilingListResponse {
 }
 
 export interface CreateFilingRequest {
+  businessProfileId: number;
   taxYear: number;
   quarter: number;
 }
