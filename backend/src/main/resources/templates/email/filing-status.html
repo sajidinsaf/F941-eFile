@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filing Status Update</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; background-color: #f4f4f7;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color: #f4f4f7; padding: 40px 0;">
+        <tr>
+            <td align="center">
+                <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+                    <!-- Header -->
+                    <tr>
+                        <td style="background-color: #1a56db; padding: 30px 40px; text-align: center;">
+                            <h1 style="color: #ffffff; margin: 0; font-size: 24px;" th:text="${appName}">F941 eFile</h1>
+                        </td>
+                    </tr>
+                    <!-- Content -->
+                    <tr>
+                        <td style="padding: 40px;">
+                            <h2 style="color: #333333; margin-top: 0;">Filing Status Update</h2>
+                            <p style="color: #555555; line-height: 1.6;">
+                                Hi <span th:text="${userName}">User</span>,
+                            </p>
+                            <p style="color: #555555; line-height: 1.6;">
+                                Your Form 941 filing status has been updated.
+                            </p>
+                            <!-- Status Details -->
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin: 24px 0; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e5e7eb;">
+                                <tr>
+                                    <td style="padding: 20px;">
+                                        <table role="presentation" width="100%" cellpadding="4" cellspacing="0">
+                                            <tr>
+                                                <td style="color: #666666; font-size: 14px; width: 140px;">Filing Period:</td>
+                                                <td style="color: #333333; font-size: 14px; font-weight: bold;">
+                                                    Q<span th:text="${quarter}">1</span> <span th:text="${taxYear}">2024</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="color: #666666; font-size: 14px;">Submission ID:</td>
+                                                <td style="color: #333333; font-size: 14px; font-weight: bold;" th:text="${submissionId}">SUB-XXXXXXXX</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="color: #666666; font-size: 14px;">Status:</td>
+                                                <td>
+                                                    <span th:if="${status == 'ACCEPTED'}" style="display: inline-block; padding: 4px 12px; background-color: #dcfce7; color: #166534; border-radius: 4px; font-size: 13px; font-weight: bold;">ACCEPTED</span>
+                                                    <span th:if="${status == 'REJECTED'}" style="display: inline-block; padding: 4px 12px; background-color: #fef2f2; color: #991b1b; border-radius: 4px; font-size: 13px; font-weight: bold;">REJECTED</span>
+                                                    <span th:if="${status == 'SUBMITTED'}" style="display: inline-block; padding: 4px 12px; background-color: #eff6ff; color: #1e40af; border-radius: 4px; font-size: 13px; font-weight: bold;">SUBMITTED</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <p style="color: #555555; line-height: 1.6;" th:text="${message}">
+                                Your filing has been processed.
+                            </p>
+                            <table role="presentation" cellpadding="0" cellspacing="0" style="margin: 30px 0;">
+                                <tr>
+                                    <td style="background-color: #1a56db; border-radius: 6px;">
+                                        <a th:href="${dashboardLink}" style="display: inline-block; padding: 14px 32px; color: #ffffff; text-decoration: none; font-weight: bold; font-size: 16px;">
+                                            View Dashboard
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- Footer -->
+                    <tr>
+                        <td style="background-color: #f8f9fa; padding: 20px 40px; text-align: center; border-top: 1px solid #eeeeee;">
+                            <p style="color: #999999; font-size: 12px; margin: 0;">
+                                &copy; 2024 <span th:text="${appName}">F941 eFile</span>. All rights reserved.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

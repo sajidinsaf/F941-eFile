@@ -1,0 +1,138 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: f941-efile
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/f941efile?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true
+    username: root
+    password: ${DB_PASSWORD:root}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+
+  mail:
+    host: ${MAIL_HOST:smtp.gmail.com}
+    port: ${MAIL_PORT:587}
+    username: ${MAIL_USERNAME:noreply@f941efile.com}
+    password: ${MAIL_PASSWORD:}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    cache: true
+
+  ai:
+    anthropic:
+      api-key: ${ANTHROPIC_API_KEY:}
+      chat:
+        options:
+          model: claude-sonnet-4-20250514
+
+# Application Settings
+app:
+  name: F941 eFile
+  frontend-url: ${FRONTEND_URL:http://localhost:5173}
+
+  jwt:
+    secret: ${JWT_SECRET:dGhpcyBpcyBhIHNhbXBsZSBzZWNyZXQga2V5IGZvciBkZXZlbG9wbWVudCBvbmx5IGNoYW5nZSBpbiBwcm9k}
+    access-token-expiration-ms: 3600000    # 1 hour
+    refresh-token-expiration-ms: 604800000 # 7 days
+
+  encryption:
+    key: ${ENCRYPTION_KEY:YTMyLWJ5dGUtbG9uZy1lbmNyeXB0aW9uLWtleS0xMjM0}
+
+  turnstile:
+    enabled: ${TURNSTILE_ENABLED:false}
+    secret-key: ${TURNSTILE_SECRET_KEY:}
+    verify-url: https://challenges.cloudflare.com/turnstile/v0/siteverify
+
+  mef:
+    base-url: ${MEF_BASE_URL:http://localhost:8080/api/api/mock-mef}
+    etin: ${MEF_ETIN:}
+
+  payment:
+    filing-fee: ${FILING_FEE:4.99}
+
+# Stripe
+stripe:
+  secret-key: ${STRIPE_SECRET_KEY:sk_test_placeholder}
+  webhook-secret: ${STRIPE_WEBHOOK_SECRET:whsec_placeholder}
+
+# Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: when_authorized
+
+# Logging
+logging:
+  level:
+    com.f941efile: INFO
+    org.springframework.security: WARN
+    org.hibernate.SQL: WARN
+
+---
+# Dev Profile
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+  datasource:
+    url: jdbc:h2:mem:f941efile;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=MYSQL
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+
+  flyway:
+    enabled: false
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  mail:
+    host: localhost
+    port: 1025
+
+logging:
+  level:
+    com.f941efile: DEBUG
+    org.hibernate.SQL: DEBUG
