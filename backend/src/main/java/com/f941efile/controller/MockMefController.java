@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/mock-mef")
+@RequestMapping("/mock-mef")
 public class MockMefController {
 
     private final ConcurrentHashMap<String, String> submissions = new ConcurrentHashMap<>();

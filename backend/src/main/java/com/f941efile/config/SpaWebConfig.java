@@ -1,17 +1,15 @@
 package com.f941efile.config;
 
-import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import jakarta.servlet.http.HttpServletRequest;
+import org.springframework.boot.web.servlet.error.ErrorController;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-@Configuration
-public class SpaWebConfig implements WebMvcConfigurer {
+@Controller
+public class SpaWebConfig implements ErrorController {
 
-    @Override
-    public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/{spring:[a-zA-Z0-9-_]+}")
-                .setViewName("forward:/index.html");
-        registry.addViewController("/{spring:[a-zA-Z0-9-_]+}/**{spring:?!(\\.js|\\.css|\\.png|\\.jpg|\\.jpeg|\\.gif|\\.svg|\\.ico|\\.woff|\\.woff2|\\.ttf|\\.eot)$}")
-                .setViewName("forward:/index.html");
+    @RequestMapping("/error")
+    public String handleError(HttpServletRequest request) {
+        return "forward:/index.html";
     }
 }

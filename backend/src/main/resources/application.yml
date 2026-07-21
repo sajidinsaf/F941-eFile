@@ -64,7 +64,7 @@ app:
     refresh-token-expiration-ms: 604800000 # 7 days
 
   encryption:
-    key: ${ENCRYPTION_KEY:YTMyLWJ5dGUtbG9uZy1lbmNyeXB0aW9uLWtleS0xMjM0}
+    key: ${ENCRYPTION_KEY:UMPHUlUhgM3QIxHeNOwvj6YJ4hLBUNqkBPy20Z6jaGs=}
 
   turnstile:
     enabled: ${TURNSTILE_ENABLED:false}
@@ -72,7 +72,7 @@ app:
     verify-url: https://challenges.cloudflare.com/turnstile/v0/siteverify
 
   mef:
-    base-url: ${MEF_BASE_URL:http://localhost:8080/api/api/mock-mef}
+    base-url: ${MEF_BASE_URL:http://localhost:8080/api/mock-mef}
     etin: ${MEF_ETIN:}
 
   payment:
@@ -91,7 +91,7 @@ management:
         include: health,info,metrics
   endpoint:
     health:
-      show-details: when_authorized
+      show-details: always
 
 # Logging
 logging:
